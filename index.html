@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="lib/slick/slick.css" rel="stylesheet">
+    <link href="lib/slick/slick-theme.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="img/favicon.png" />
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300" rel="stylesheet">
+    <script type="text/javascript" src="js/google.js"></script>
+
+    <title>Solar Calçados - Home</title>
+</head>
+
+
+<body>
+
+    <div id="wpp-btn"></div>
+
+    <header id="mob-header"></header>
+
+    <header id="pc-header"></header>
+
+    <div id="carouselExampleControls" class="carousel slide shadow" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div style="background: gray;"></div>
+            </div>
+            <div class="carousel-item">
+                <div style="background: darkgray;"></div>
+            </div>
+            <div class="carousel-item">
+                <div style="background: black;"></div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span aria-hidden="true"><i class="bi bi-caret-left-fill"></i></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span aria-hidden="true"><i class="bi bi-caret-right-fill"></i></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>  
+    mds
+
+    <div id="featured-products" data-source-json="./mockdata/mock-products.json"
+        data-aside="true"
+        data-filter="true"class="container feat product-slider-4">
+        <div class="section-header">
+            <h1 class="d-none d-sm-block">Destaques</h1>
+            <h4 class="d-block d-sm-none text-center">Destaques</h4>
+            <hr class="hr-feature" />
+        </div>
+        
+        <div id="lista" class="list row">
+
+        
+        </div>
+    </div>
+
+    <div class="paginations">
+        <div class="col-md-12">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item prev"><a class="page-link">
+                            <hr class="hr-pag aprev" />
+                        </a></li>
+                    <li class="page-item att"><a class="page-link">
+                            <hr class="hr-pag aatt" />
+                        </a></li>
+                    <li class="page-item next"><a class="page-link">
+                            <hr class="hr-pag anext" /> 
+                        </a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="container-infos container mb-5">
+        <div class="infos">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="card shadow rounded  inf">
+                        <i class="bi bi-credit-card-2-back"></i>
+                        <h1 style="min-height: 41px;">PARCELE EM ATÉ 12X</h1>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="card shadow rounded inf">
+                        <i class="bi bi-truck"></i>
+                        <h1 style="min-height: 41px;">FAZEMOS ENTREGAS</h1>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="card shadow rounded  inf">
+                        <i class="bi bi-arrow-repeat"></i>
+                        <h1 style="min-height: 41px;">7 DIAS PARA TROCAS</h1>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="card shadow rounded inf">
+                        <i class="bi bi-chat-dots"></i>
+                        <h1 style="min-height: 41px;">SUPORTE 24/6</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="visita" class="visita container-fluid">
+        <div class="title-map">
+            <h1>Venha nos visitar!</h1>
+            <hr class="hr-visit" />
+            <h2>Estamos em:</h2>
+            <div class="places">
+                <button class="btn btn-danger vianabtn">Viana</button>
+                <button class="btn btn-danger penbtn">Penalva</button>
+            </div>
+        </div>
+        <div class="map" style='overflow:hidden;height:280px;width:100%;color: #0095eb'>
+            <div id='gmap_canvas' style='height:280px;width:100%;'></div>
+            <style>
+                #gmap_canvas img {
+                    max-width: none !important;
+                    background: none !important
+                }
+            </style>
+        </div>
+    </div>
+
+    <div class="espace ">
+        <div class="footer-line"></div>
+    </div>
+
+    <footer id="mob-footer"></footer>
+    <footer id="pc-footer"></footer>
+
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <script src='https://maps.google.com/maps/api/js?key=AIzaSyDv7YRz1WWPhkr6aim8wEm4WDPBdk81z54'></script>
+    <script type="text/javascript" src="js/google.js"></script>
+
+    <script src="js/main.js"></script>
+    <script src="js/generic-page.js"></script>
+    <script type="text/javascript" src="js/template/featured-list-template.js"></script>
+    <script src="js/navprod.js"></script>
+
+
+
+</body>
+
+</html>
