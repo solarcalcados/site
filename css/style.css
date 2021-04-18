@@ -16,7 +16,7 @@
   src: url("../font/poppins/Poppins-Bold.ttf");
 }
 :root {
-  --main-color: #ff3137;
+  --main-color: #d22528;
   --sec-color: #272727;
   --mei-color: #fbfbfb;
 }
@@ -26,7 +26,7 @@
 }
 
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: Montserrat-regular;
     font-weight: 300;
     background-color: #fff;
 }
@@ -60,75 +60,47 @@ hr{
     bottom: 5px;
     right: 10px;
 }
-
-.header{
-    padding: 15px 0;
-}
-.header a{
-    text-decoration: none;
-
-}
-.header .row > div{
-    padding: 0;
-}
-.header i{
-    font-size: 2rem;
-    color: black;
-    margin: 0 4px;
-}
-.header .bag{
-    text-align: start;
-    margin: 0 5px;
-}
-.header .menu .bi{
-    font-size: 2rem;
-}
-
-header .logo{
-    text-align: center; 
-}
-header .logo img{
-    width: 50px;
-}
-.header .search{
-    text-align: left;
-    margin: 0 20px;
-}
-.header .container-fluid .row:last-child{
-    margin-top: 10px
-}
-.header input{
-    width: 100%;
-    height: 35px;
-    padding: 0 15px;
-    color: #999999;
-    background: transparent;
-    border: 1px solid black;
-    border-radius: 4px;
-}
-.header button{
-    position: absolute;
-    width: 20px;
-    height: 30px;
-    top: 2.5px;
-    right: 40px;
+/*******************************************************************************************/
+.breadcrumb{
+    padding: 20px 0;
     text-align: center;
-    background: transparent;
-    color: #353535;
-    border: none;
+    color: var(--sec-color);
 }
-.header button i.bi.bi-search{
-    font-size: 16px;
-    margin: 0;
-    height: 30px;
-    width: 20px;
+.breadcrumb h1{
+    color: var(--main-color);
+    font-size: 25px; 
+    font-family: Montserrat-semibold;
+}
+.breadcrumb .bd-item, .breadcrumb a{
+    color: var(--sec-color);
+    font-size: 15px;  
+    font-family: Montserrat-regular;  
+}
+.breadcrumb .bd-item:hover, .breadcrumb .bd-item:hover a{
+    color: var(--main-color);
+    transition: all 0.4s;
+    text-decoration: none;
+}
+.breadcrumb .bd-now{
+    color: #999;
+    text-transform: capitalize;
+}
+/*******************************************************************************************/
+.main-color{
+    color:#ff3137;
+}
+.text-black{
+    color: #1e1e1e;
+}
+/*******************************************************************************************/
+.header .bi{
+    font-size: 1.8rem;
 }
 .container-infos{
     background: #fff;
     margin-top: 20px;
     background-color: transparent;
 }
-
 .infos{
     text-align: center; 
 }
@@ -161,15 +133,13 @@ header .logo img{
     height: 300px;
 }
 .carousel .bi{
-    font-size: 25px;
+    font-size: 1.5rem;
     color: #ff3137;
 }
 
 
 /********************************/
-.header .dropdown{
-    width: 60px;
-}
+
 .dropdown-content {
     width: 300px;
     display: none;
@@ -187,16 +157,12 @@ header .logo img{
     background: #f7f7f7;
     border-bottom: 1px solid #D2D2D2;
     font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: Montserrat-regular;
     line-height: 60px;
     text-transform: none;
     position: relative;
     color: #111;
     text-decoration: none;
-}
-.dropdown-content a .bi {
-    color: blue;
-
 }
 .dropdown:hover .dropdown-content {
   display: block;
@@ -273,7 +239,7 @@ header .logo img{
     z-index: 1000;
     display: flex;
     height: 0px;
-    font-size: 20px; 
+    font-size: 1rem; 
 }
 .product-item .bi:hover{
     color: red;
@@ -435,6 +401,8 @@ header .logo img{
 }
 .footer-m{
     background-color: #272727;
+    color: #fff;
+    padding-bottom: 50px;
 }
 .footer-m .about-m h1, .footer-m .contact-m h1{
     color: #fff;
@@ -447,7 +415,10 @@ header .logo img{
 .footer-m div:hover ul{
     display: block;
 }
-.footer li:hover .bi{
+.footer-m .bi{
+    color: #fff;
+}
+.footer-m li:hover .bi{
     color: var(--main-color);
     transition: all 0.4s;
 }
@@ -490,30 +461,7 @@ header .logo img{
 .footer-m .social-m i{
     font-size: 19px;
 }
-.breadcrumb{
-    padding: 20px 0;
-    text-align: center;
-    color: var(--sec-color);
-}
-.breadcrumb h1{
-    color: var(--main-color);
-    font-size: 25px; 
-    font-family: Montserrat-semibold;
-}
-.breadcrumb .bd-item, .breadcrumb a{
-    color: var(--sec-color);
-    font-size: 15px;  
-    font-family: Montserrat-regular;  
-}
-.breadcrumb .bd-item:hover, .breadcrumb .bd-item:hover a{
-    color: var(--main-color);
-    transition: all 0.4s;
-    text-decoration: none;
-}
-.breadcrumb .bd-now{
-    color: #999;
-    text-transform: capitalize;
-}
+
 .aboutus{
     padding: 50px 0;
 }
@@ -701,16 +649,15 @@ header .logo img{
 /***************************************************SM****************************************************/
 /*********************************************************************************************************/
 @media (min-width: 576px) { 
-header .logo img{
-    width: 100px;
-    position: fixed;
-    top: -5px;
-    left: 10px;
-}
-header .logo{
-    width: 360px;
-    
-}
+    header .logo img{
+        width: 60px;
+        position: fixed;
+        top: 5px;
+        left: 25px;
+    }
+    header .logo{
+        width: 360px;  
+    }
 
 }
 
@@ -749,6 +696,7 @@ header .logo{
     position: fixed;
     top: 0px;
     z-index: 99999;
+    height: auto;
     background-color: #fff;
 }
 header{
@@ -759,55 +707,17 @@ header{
 header .form-inline{
     padding: 0 105px;
 }
-.header-left{
-    display: inline;
-    flex-grow: 0;
-    flex-shrink: 0;
-    flex-basis: calc((100% + 20px) / 4);
-    max-width: calc((100% + 20px) / 4);
-    margin: 0;
-    height: 100%;
-}
 .active{
     color:white;
 }
 
-header .header-center{
-    flex-grow: 0;
-    flex-shrink: 0;
-    flex-basis: calc((100% + 450px) / 2 - 20px);
-    margin: 0;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.header-center li, .header-center a{
-    display: inline-block;
-    padding: 0 10px;
-    text-transform: capitalize;
-    font-family: Montserrat-semibold;
-    color: black;
-}
-.header-center li:hover, .header-center a:hover{
-    color:  #ff3137;    
-    transition: all 0.5s;
-    text-decoration: none;
-}
-.header-center ul{
-    margin: 14px 0 10px 0;
-    padding-inline-start: 0px;
-}
-.header-left, .header-center{
-    display: inline-block;
-    align-items: center;
-}
 
 
 /**************************/
 /**********SLIDE***********/
 /**************************/
 .carousel{
-    margin-top:90px; 
+    margin-top:55px; 
 }
 .carousel .carousel-item > div{
     height: 500px;

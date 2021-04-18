@@ -1,13 +1,10 @@
 let module = $('#featured-products')[0];
 
-console.log(module);
 
 let sourceJson=module.dataset.sourceJson;
 let productPage=0;
 let ini = 0;
 let porPage=4;
-
-
 
 if(sourceJson){
     let productList;
@@ -116,7 +113,6 @@ function fillProductList(list, pp, prp,init){
         if(i>pp-1)
             break;
         let htmlText='';
-        console.log(list)
         let product = list[parseInt(i)+prp];
         if(product==undefined)
             break;
