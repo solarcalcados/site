@@ -6,16 +6,12 @@ let productPage=0;
 let ini = 0;
 let porPage=4;
 
-if(sourceJson){
-    let productList;
-    let http=new XMLHttpRequest();
-    http.onload=()=>{
-        productList=JSON.parse(http.responseText).products
-        const html = {
-            get(element){
-                return document.querySelector(element)
-            }
-        }
+var db = firebase.firestore();
+
+
+readBdFeatured()
+
+
         const status = {
             page: 1,
             porPage,
@@ -101,12 +97,12 @@ if(sourceJson){
             console.log(status.page)
         }
         list.update();
-    }
+   
 
     
     http.open('get',sourceJson,true);
     http.send();
-}
+
 
 function fillProductList(list, pp, prp,init){
     for(let i in list){
@@ -152,3 +148,45 @@ function fillProductList(list, pp, prp,init){
                 var cookie = name + "=" + escape(value);
                 document.cookie = cookie;
             }
+function readBdFeatured(){
+    db.collection("products").where("featured", "==", 1)
+    .get()
+    .then((querySnapshot) => {
+        querySnapshot.forEach((doc) => {
+            let i=0;
+            console.log(i)
+            i++
+            console.log(i)
+            // doc.data() is never undefined for query doc snapshots
+            console.log(doc.id, " => ", doc.data());
+            
+            var url_pedido = 'product-detail.html'
+            var qntCards = document.querySelectorAll('.product-item');
+            console.log(qntCards.length)
+            
+            let htmlText='';
+
+            htmlText+='<div class="mt-4 col-6 col-sm-6 col-md-6 col-lg-3">';
+            htmlText+='<div class="product-item card shadow rounded">';
+            htmlText+='<div class="product-image">';
+            htmlText+='<i class="bi bi-suit-heart"></i>';
+            htmlText+='<a">';
+            htmlText+='<img src="img/products/'+doc.data().thumbnail+'.png" alt="Product Image"></a>';
+            htmlText+='</div>';
+            htmlText+='<div class="product-title">';
+            htmlText+='<a   >'+doc.data().name+'</a>';
+            htmlText+='<h3>R$'+doc.data().price+'</h3>';
+            htmlText+='</div>';
+            htmlText+='<div class="product-price">';
+            htmlText+='<a  class="btnsell btn shadow" href="product-details.html?produto='+doc.data().name+'&id='+doc.data().id+'">Comprar</a>';
+            htmlText+='</div>';
+            htmlText+='</div>';
+            htmlText+='</div>';
+            document.getElementById("lista").innerHTML+=htmlText;
+
+        });
+    })
+    .catch((error) => {
+        console.log("Error getting documents: ", error);
+    });;
+}

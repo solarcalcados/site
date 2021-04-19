@@ -644,6 +644,21 @@ hr{
 .pag-active{
     background-color: #272727;
 }
+.card .dropdown-cities{
+    position:relative;
+    float:center;
+    border-right:1px solid #c0c0c0;
+    position:absolute;
+    top:25px;
+    left:0;
+    display: none;
+    z-index: 9;
+    border-radius: 5px;
+    background-color: white;
+    }
+.card .cities:hover .dropdown-cities{
+    display: block;
+}
 
 /*********************************************************************************************************/
 /***************************************************SM****************************************************/
