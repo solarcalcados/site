@@ -22,7 +22,7 @@ function populatPage(sizes,colors){
             document.getElementById("product-name2").innerHTML = doc.data().name;
             document.getElementById("product-value").innerHTML = '<span style="font-size:1.3rem">R$</span>'+doc.data().price;
             document.getElementById("img-div").innerHTML = '<img class="w-100 shadow-sm rounded" src="img/products/'+doc.data().thumbnail+'-thumb.png">'
-            document.getElementById("brand-div").innerHTML = '<img class="col-4 col-lg-7 w-100 shadow-sm rounded" src="img/'+doc.data().marca.replace(" ","")+'.png"> <h6 class="col-4 col-lg-7 text-center">'+doc.data().marca+'</h6>'
+            document.getElementById("brand-div").innerHTML = '<img class="col-4 col-lg-7 w-100 shadow-sm rounded" src="img/'+doc.data().marca.replace(" ","").toLowerCase()+'.png"> <h6 class="col-4 col-lg-7 text-center">'+doc.data().marca+'</h6>'
             document.getElementById("loremipsumhere").innerHTML = doc.data().description
 
             if(parseInt(doc.data().price) >= 60){
