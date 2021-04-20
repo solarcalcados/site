@@ -42,7 +42,8 @@ function populateBd(list, db){
         id: product.code,
         featured: product.featured,
         thumbnail: product.thumbnail,
-        logomarca: product.logomarca
+        logomarca: product.logomarca,
+        num: product.num
       })
       .then(() => {
         console.log("Document successfully written!");

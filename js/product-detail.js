@@ -9,14 +9,14 @@
     var col = []
     populatPage(siz,col)
 
+
+    
 function populatPage(sizes,colors){
     db.collection("products").where("id", "==", productId)
 
     .get()
     .then((querySnapshot) => {
         querySnapshot.forEach((doc) => {
-            // doc.data() is never undefined for query doc snapshots
-            console.log(doc.id, " => ", doc.data());
 
             document.getElementById("product-name").innerHTML = doc.data().name;
             document.getElementById("product-name2").innerHTML = doc.data().name;
@@ -38,7 +38,6 @@ function populatPage(sizes,colors){
 
             if(!sizes.includes(doc.data().size)){
                 sizes.push(doc.data().size)
-                console.log(doc.data().size)
                 document.getElementById("size-div").innerHTML += '<span id=list[t].size[t] tabindex="0" class="badge badge-danger shadow-sm size">'+doc.data().size+'</span> <span class="selected-size"></span>'
             }
             if(!colors.includes(doc.data().color)){
@@ -46,8 +45,6 @@ function populatPage(sizes,colors){
                 document.getElementById("color-div").innerHTML+= '<span id=list[t].size[t] tabindex="0" class="badge badge-danger shadow-sm size">'+doc.data().color+'</span> <span class="selected-size"></span>'
             }
 
-           
-            console.log(colors)
 
         });
     })

@@ -8,24 +8,24 @@
             <div class="text-secondary navbar-collapse collapse" id="navb" >
               <ul class="navbar-nav mr-auto">
                 <li class=" nav-item">
-                  <a class="text-dark nav-link" href="javascript:void(0)">Homem</a>
+                  <a class="text-dark nav-link" href="products.html?filter=homem">Homem</a>
                 </li>
                 <li class="nav-item">
-                  <a class="text-dark nav-link" href="javascript:void(0)">Mulher</a>
+                  <a class="text-dark nav-link" href="products.html?filter=mulher">Mulher</a>
                 </li>
                 <li class="nav-item">
-                  <a class="text-dark nav-link disabled" href="javascript:void(0)">Kids</a>
+                  <a class="text-dark nav-link disabled" href="products.html?filter=kids">Kids</a>
                 </li>
                 <li class="nav-item">
-                    <a class="text-dark nav-link disabled" href="javascript:void(0)">Esporte</a>
+                    <a class="text-dark nav-link disabled" href="products.html?filter=esporte">Esporte</a>
                 </li>
                 <li class="nav-item">
-                    <a class="text-dark nav-link disabled" href="javascript:void(0)">Acessórios</a>
+                    <a class="text-dark nav-link disabled" href="products.html?filter=acessórios">Acessórios</a>
                 </li>        
               </ul>
-              <form class="form-inline pr-0 my-2 my-lg-0">
-                <input class="form-control mr-sm-2"  type="text" placeholder="Search">
-                <button class="search btn btn-success my-2 my-sm-0 bg-transparent border-1 border-secondary" type="button">
+              <form class="form-inline pr-0 my-2 my-lg-0" method="GET" action="/products.html">
+                <input class="form-control mr-sm-2" name="search"  type="text" placeholder="Search">
+                <button class="search btn btn-success my-2 my-sm-0 bg-transparent border-1 border-secondary" type="type=submit">
                     <i class="bi-search" style="font-size: 1.3rem; color: #1f1f1f;"></i>
                 </button>
               </form>
