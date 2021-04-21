@@ -102,6 +102,9 @@ hr{
     text-decoration: line-through;
     color: red;
 }
+.swal2-radio {
+    display: grid !important;
+}
 /*******************************************************************************************/
 .header .bi{
     font-size: 1.8rem;

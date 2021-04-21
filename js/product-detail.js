@@ -17,6 +17,7 @@
     let color = ""
     let desconto = 0;
 
+
     var descendentesCi = document.querySelectorAll(".dropdown-item");
         for (var i = 0; i < descendentesCi.length; i++) {
             descendentesCi[i].addEventListener("click", function (e) {
@@ -38,9 +39,10 @@
             size = e.target.innerHTML;
             document.getElementById("size-chosed").innerHTML = size
         });
+        
     
     document.getElementById('comprar').onclick = function(){
-        if(city == "" || color == "" || size == ""){
+        if(color == "" || size == ""){
             Swal.fire({
                 title: 'Oops... Têm algum dado faltando',
                 text: 'Lembre-se de informar a sua cidade e escolher a cor e o tamanho do calçado   ',
@@ -49,15 +51,50 @@
             })
           }else{
             Swal.fire({
-                title: 'Só mais um pouco...',
-                text: 'Você será direcionado ao whatsapp da Solar Calçados para finalizar sua compra',
-                icon: 'success',
-                showCancelButton: true,
-                confirmButtonText: 'Ok, vamos lá!',
-                cancelButtonText: 'Ainda não'
+                title: "Só mais uma coisa",
+                text: "Quanto ao seu produto, você quer...",
+                input: 'radio',
+                icon: 'info',
+                inputOptions: {
+                    'in': 'Retirar na loja</br></br>',
+                    'out': 'Receber na minha cidade',
+                },
+                inputValidator: (value) => {
+                    if (!value) {
+                    return 'Selecione uma opção!'
+                    }
+                } 
             }).then((result) => {
-                window.location.href =  "https://api.whatsapp.com/send?phone=5598987527469&text=Site%20Solar%20Cal%C3%A7ados.%20Gostaria%20de%20comprar%20o%20produto%3A%20"+nameProd+"%20-%20Tamanho%3A%20"+size+"%3B%20Cor%3A%20"+color+"%3B%20Para%20entrega%20em%20"+city+"."
-                console.log("compra do produto: "+nameProd+" cor:"+color+" tamanho: "+size+" cidade: "+city)
+                if (result.value) {
+                    const answers = JSON.stringify(result.value)
+                    if(answers == '"in"'){
+                        Swal.fire({
+                            title: "Agora é serio! Ultima coisa",
+                            text: "Selecione a cidade onde devemos te levar seu produto.",
+                            input: 'select',
+                            icon: 'info',
+                            inputOptions: {
+                                'via': 'Viana: Frete Grátis',
+                                'pen': 'Penalva: Frete Grátis',
+                                'vit': 'Vitória do Mearin: +R$15',
+                                'ara': 'Arari: +R$15',
+                                'mat': 'Matinha: +R$15',
+                                'oli': 'Olinda nova: +R$15',
+                                'caj': 'Cajari: +R$15'
+                            },confirmButtonText: 'Pronto!'
+                          })
+                    }else{
+                        Swal.fire({
+                            title: answers,
+                            html: `
+                              Your answers:
+                              <pre><code>${answers}</code></pre>
+                            `,
+                            confirmButtonText: 'Lovely!'
+                          })
+                    }
+                    
+                  }
             })  
           }
             
