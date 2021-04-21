@@ -11,7 +11,6 @@
 
     let price = 0
     
-    var frete = 15.00
     let nameProd =  ""
     let city = ""
     let size = ""
@@ -26,7 +25,7 @@
                     frete = 0
                     document.getElementById("city-selected").innerHTML = city
                 }else{
-                    document.getElementById("city-selected").innerHTML = city+': R$'+frete;
+                    document.getElementById("city-selected").innerHTML = city+': R$15,00';
                 }
                 
             })
