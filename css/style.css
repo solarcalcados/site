@@ -92,6 +92,12 @@ hr{
 .text-black{
     color: #1e1e1e;
 }
+.active{
+    color:white;
+}
+.active-dropItem{
+    background-color: red;
+}
 /*******************************************************************************************/
 .header .bi{
     font-size: 1.8rem;
@@ -697,7 +703,7 @@ hr{
     padding-right: 30px;
 }
 .breadcrumb{
-    margin-top: 90px;
+    margin-top: 82px;
 }
 .header .bag{
     text-align: end;
@@ -722,12 +728,6 @@ header{
 header .form-inline{
     padding: 0 105px;
 }
-.active{
-    color:white;
-}
-
-
-
 /**************************/
 /**********SLIDE***********/
 /**************************/
