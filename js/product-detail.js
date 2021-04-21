@@ -129,7 +129,7 @@ function populatPage(sizes,colors){
             
 
             document.getElementById("img-div").innerHTML = '<img class="w-100 shadow-sm rounded" src="img/products/'+doc.data().thumbnail+'-thumb.png">'
-            document.getElementById("brand-div").innerHTML = '<img class="col-4 col-lg-7 w-100 shadow-sm rounded" src="img/'+doc.data().marca.replace(" ","").toLowerCase()+'.png"> <h6 class="col-4 col-lg-7 text-center">'+doc.data().marca+'</h6>'
+            document.getElementById("brand-div").innerHTML = '<img class="col-5 col-lg-7 w-100 shadow-sm rounded" src="img/'+doc.data().marca.replace(" ","").toLowerCase()+'.png"> <h6 class="col-5 col-lg-7 text-center">'+doc.data().marca+'</h6>'
             document.getElementById("loremipsumhere").innerHTML = doc.data().description
 
             
