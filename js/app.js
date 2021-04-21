@@ -19,7 +19,7 @@ if(sourceJsond){
         
         var db = firebase.firestore();
 
-        //populateBd(productList, db)
+        populateBd(productList, db)
       }
       http.open('get',sourceJson,true);
       http.send();  
@@ -31,7 +31,7 @@ function populateBd(list, db){
     for(let i=0; i < list.length; i++){
       console.log(i)
       let product = list[parseInt(i)]
-      db.collection("products").doc(product.name).set({
+      db.collection("products").doc(product.code).set({
         name: product.name,
         price: product.price,
         size: product.size,
@@ -43,6 +43,7 @@ function populateBd(list, db){
         featured: product.featured,
         thumbnail: product.thumbnail,
         logomarca: product.logomarca,
+        desconto: product.desconto,
         num: product.num
       })
       .then(() => {

@@ -98,6 +98,10 @@ hr{
 .active-dropItem{
     background-color: red;
 }
+.havier{
+    text-decoration: line-through;
+    color: red;
+}
 /*******************************************************************************************/
 .header .bi{
     font-size: 1.8rem;

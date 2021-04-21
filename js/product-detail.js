@@ -16,6 +16,7 @@
     let city = ""
     let size = ""
     let color = ""
+    let desconto = 0;
 
     var descendentesCi = document.querySelectorAll(".dropdown-item");
         for (var i = 0; i < descendentesCi.length; i++) {
@@ -77,30 +78,52 @@ function populatPage(sizes,colors){
 
             document.getElementById("product-value").innerHTML = '<span style="font-size:1.3rem">R$</span>'+doc.data().price;
             price = doc.data().price
+            console.log(price)
+
+            desconto = doc.data().desconto
+            var sub = desconto/100*(parseFloat(price))
+            price = parseFloat(price.replace(",","."))-sub
+            if(desconto > 0){
+                document.getElementById("desc-prod").innerHTML = '</br><span style="font-size:1.3rem">R$</span>'+price.toFixed(2)
+                .replace('.', ',')
+                .replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1.')
+                document.getElementById("product-value").classList.add("havier")
+            }
+
+            
 
             document.getElementById("img-div").innerHTML = '<img class="w-100 shadow-sm rounded" src="img/products/'+doc.data().thumbnail+'-thumb.png">'
             document.getElementById("brand-div").innerHTML = '<img class="col-4 col-lg-7 w-100 shadow-sm rounded" src="img/'+doc.data().marca.replace(" ","").toLowerCase()+'.png"> <h6 class="col-4 col-lg-7 text-center">'+doc.data().marca+'</h6>'
             document.getElementById("loremipsumhere").innerHTML = doc.data().description
 
-            if(parseInt(doc.data().price) >= 60){
-                var valMult = Math.trunc(parseFloat(doc.data().price)/30)
+            
+            if(parseFloat(price) >= 60){
+                var valMult = Math.trunc(parseFloat(price/30))
+                
                 if(valMult > 6){
                     valMult = 6;
                 }
-                var finValue = parseFloat(doc.data().price.replace(",","."))/valMult
-                document.getElementById("vezes").innerHTML = "até  "+ valMult+"x ";
-                document.getElementById("dividi").innerHTML =  "R$"+finValue.toFixed(2).toString().replace(".",",")
+                var finValue = price/valMult
+                console.log(typeof price)
+                console.log(valMult)
+                console.log(finValue)
+                if(desconto>0){
+                    document.getElementById("dividiDesc").innerHTML =  "R$"+ajuste(finValue,2).toString().replace(".",",")
+                    document.getElementById("vezesDesc").innerHTML = "até  "+ valMult+"x ";
+                }else{
+                    document.getElementById("dividi").innerHTML =  "R$"+ajuste(finValue,2).toString().replace(".",",")
+                    document.getElementById("vezes").innerHTML = "até  "+ valMult+"x ";
+                }
+                
             }
 
-
-            if(!sizes.includes(doc.data().size)){
-                sizes.push(doc.data().size)
-                document.getElementById("size-div").innerHTML += '<span id=list[t].size[t] tabindex="0" class="badge badge-danger shadow-sm size">'+doc.data().size+'</span> <span class="selected-size"></span>'
+            for(let i = 0; i < doc.data().size.length; i++){
+                document.getElementById("size-div").innerHTML += '<span id=list[t].size[t] tabindex="0" class="badge badge-danger shadow-sm size">'+doc.data().size[i]+'</span> <span class="selected-size"></span>'
             }
-            if(!colors.includes(doc.data().color)){
-                colors.push(doc.data().color)
-                document.getElementById("color-div").innerHTML+= '<span id=list[t].size[t] tabindex="0" class="badge badge-danger shadow-sm color">'+doc.data().color+'</span> <span class="selected-size"></span>'
+            for(let i = 0; i < doc.data().color.length; i++){
+                document.getElementById("color-div").innerHTML += '<span id=list[t].size[t] tabindex="0" class="badge badge-danger shadow-sm color">'+doc.data().color[i]+'</span> <span class="selected-size"></span>'
             }
+            
 
 
         });
@@ -111,3 +134,7 @@ function populatPage(sizes,colors){
 
     
 }
+function ajuste(nr, casas) {
+    const og = Math.pow(10, casas)
+    return Math.floor(nr * og) / og;
+  }

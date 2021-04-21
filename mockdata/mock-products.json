@@ -1,231 +1,420 @@
 {
-    "products":[
+    "products": [
         {
-            "name":"teste1",
-            "price":"99,00",
-            "desconto":"0",
-            "size":"34",
-            "category":["rasteira", "slide","homem"],
-            "color":"black",
-            "marca":"beira rio",
-            "logomarca": "beirario",
-            "descricao":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-            "thumbnail":"product-1",
-            "featured" : 1,
-            "code" : "id1",
-            "num" : 1
+            "name": "sandalia feminina vizzano salto grosso verniz",
+            "price": "119,99",
+            "desconto": "10",
+            "size": [
+                "35",
+                "36",
+                "37",
+                "38"
+            ],
+            "category": [
+                "sandalia",
+                "sandalia plataforma",
+                "plataforma",
+                "sandalia meia pata",
+                "meia pata",
+                "salto grosso",
+                "sandalia salto grosso",
+                "mulher",
+                "vizzano"
+            ],
+            "color": [
+                "Verniz Premium light"
+            ],
+            "marca": "Vizzano",
+            "logomarca": "vizzano",
+            "descricao": "Sandália Feminina Vizzano Meia Pata Festa Salto Grosso</br></br>Confeccionado em material sintético.</br>Palmilha acolchoada garante o conforto durante todo o uso.</br>O solado emborrachado promove um caminhar seguro e aderente.</br></br>Características:</br>Material Cabedal: Sintético</br>Material Interno: Têxtil</br>Material da Sola: Borracha </br>Altura do Salto: 13 cm</br>Salto: Médio Grosso </br>Coleção: Primavera/Verão 2021</br>Ocasião/Estilo: Festa </br>",
+            "thumbnail": "product-1",
+            "featured": 1,
+            "code": "6292.300",
+            "num": 1
+        },
+
+        {
+            "name": "Sandália Feminina Vizzano Salto Plataforma Preta",
+            "price": "134,99",
+            "desconto": "0",
+            "size": [
+                "36",
+                "37"
+            ],
+            "category": [
+                "sandalia",
+                "sandalia plataforma",
+                "plataforma",
+                "sandalia meia pata",
+                "meia pata",
+                "salto grosso",
+                "sandalia salto grosso",
+                "mulher",
+                "vizzano"
+            ],
+            "color": [
+                "Preto Verniz"
+            ],
+            "marca": "Vizzano",
+            "logomarca": "vizzano",
+            "descricao": "Sandália Feminina Vizzano Meia Pata Festa Salto Plataforma</br></br>Confeccionado em material sintético.</br>Palmilha com alta absorção de impacto e umidade, solado flexível, emborrachado com frisos antiderrapante para garantir maior segurança e conforto ao caminhar.</br>A Sandália Meia Pata é um calçado super confortável, por ter a meia pata e amenizar a altura do salto em si, proporciona mais conforto e segurança ao andar, porque aumenta a estabilidade dos pés sobre o salto.</br>",
+            "thumbnail": "product-2",
+            "featured": 1,
+            "code": "6292.443",
+            "num": 2
+        },
+
+        {
+            "name": "Sandalia Feminino Beira Rio Salto Medio Nude",
+            "price": "114,99",
+            "desconto": "0",
+            "size": [
+                "35",
+                "36",
+                "37"
+            ],
+            "category": [
+                "sandalia",
+                "Salto Médio",
+                "Salto",
+                "com trazeira",
+                "trazeira",
+                "salto alto",
+                "mulher",
+                "vizzano"
+            ],
+            "color": [
+                "Nude"
+            ],
+            "marca": "Beira Rio",
+            "logomarca": "Beira Rio",
+            "descricao": "A Sandália Feminina Salto Médio Beira Rio 8379.204 Verniz, é confeccionada em material sintético (verniz), seu cabedal conta com uma tira fina toda em cima dos dedos e outra com detalhe de uma linda fivela, trazendo delicadeza e sofisticação para a sandália. É perfeita tanto para o trabalho quanto para os passeios de fim de semana, garantindo sua segurança, praticidade e conforto. Seu fechamento se dá através de uma tira elástica no calcanhar, ajustando-se aos seus pés. Sua palmilha possui leve acolchoamento. É uma peça cheia de personalidade que possui um salto médio no calcanhar, tornando a sandália destaque em questão de design. Solado em borracha antiderrapante, dando maior segurança durante cada passo. Salto de 5,0 cm de altura..</br>",
+            "thumbnail": "beirario",
+            "featured": 1,
+            "code": "8379.204",
+            "num": 3
+        },
+
+        {
+            "name": "Sandália Salto Médio Feminina Beira Rio ",
+            "price": "114,99",
+            "desconto": "0",
+            "size": [
+                "33",
+                "34",
+                "35"
+            ],
+            "category": [
+                "sandalia",
+                "Salto Médio",
+                "Salto",
+                "com trazeira",
+                "trazeira",
+                "salto alto",
+                "mulher",
+                "vizzano"
+            ],
+            "color": "Verniz Fachet",
+            "marca": "Beira Rio",
+            "logomarca": "Beira Rio",
+            "descricao": "A Sandália Salto Médio Feminina Beira Rio 8379.214.21396 é confeccionada em material sintético (napa turim), seu solado é em PVC antiderrapante, garantindo mais segurança ao andar, contém um elástico na parte traseira, ajustando-se aos seus pés. Seu salto é grosso com aproximadamente 5,5 centímetros de altura.</br></br>Como usar:</br</br>Essa sandália além de linda e versátil, vem com grande elegância em qualquer combinação a ser formada. Pode ser usada com diferentes modelos de calças, saias, vestidos, entre outros. Por se tratar de ser uma modelo básico use e abuse desta peça, ocasiões mais especiais ou até mesmo dia a dia para trabalho, pois ela tem um toque de leveza e conforto para seus pés. Use com vestidos e saias leves, para um visual mais romântico, se você quer um look mais urbano, aposte com calças jeans e t-shirts, independente do modelo o que sabemos é que elas vão se mostrar presente e serão um arraso.",
+            "thumbnail": "product-4",
+            "featured": 0,
+            "code": "8379.214",
+            "num": 4
+        },
+
+        {
+            "name": "Rasteira Beira Rio Feminina Estampada",
+            "price": "54,99",
+            "desconto": "0",
+            "size": [
+                "35",
+                "36",
+                "37"
+            ],
+            "category": [
+                "chinelo",
+                "chinela",
+                "rasteira",
+                "sandalia",
+                "estampa",
+                "estampada",
+                "mulher",
+                "beira rio"
+            ],
+            "color":["Salmão"],
+            "marca": "Beira Rio",
+            "logomarca": "Beira Rio",
+            "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "thumbnail": "product-5",
+            "featured": 1,
+            "code": "8237.283",
+            "num": 5
         },
         {
-            "name":"teste2",
-            "price":"37,50",
-            "desconto":"1",
-            "size":"35",
-            "category":["salto","salto estruturado","homem"],
-            "color":"black",
-            "marca":"Beira Rio",
-            "logomarca": "beirario",
-            "descricao":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-            "thumbnail":"product-2",
-            "featured" : 1,
-            "code" : "id2",
-            "num" : 2
+            "name": "Rasteira Beira Rio Transpassada",
+            "price": "54,99",
+            "desconto": "0",
+            "size": [
+                "33",
+                "34",
+                "38"
+            ],
+            "category": [
+                "chinelo",
+                "chinela",
+                "rasteira",
+                "sandalia",
+                "transpassada",
+                "estampa",
+                "estampada",
+                "mulher",
+                "beira rio"
+            ],
+            "color": ["Camel"],
+            "marca": "Beira Rio",
+            "logomarca": "Beira Rio",
+            "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "thumbnail": "product-6",
+            "featured": 1,
+            "code": "8237.284",
+            "num": 6
+        },
+        {
+            "name": "Rasteira Ramarim Apliques Preta",
+            "price": "109,99",
+            "desconto": "0",
+            "size": [
+                "38"
+            ],
+            "category": [
+                "chinelo",
+                "chinela",
+                "rasteira",
+                "sandalia",
+                "fivela",
+                "casual",
+                "mulher",
+                "ramarim"
+            ],
+            "color": ["Carmel"],
+            "marca": "Ramarim",
+            "logomarca": "Beira Rio",
+            "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "thumbnail": "product-7",
+            "featured": 1,
+            "code": "20-24101",
+            "num": 7
+        },
+
+        {
+            "name": "Tênis Feminino Moleca Escama Gloss marinho",
+            "price": "89,99",
+            "desconto": "0",
+            "size": [
+                "34",
+                "35",
+                "36",
+                "37",
+                "38"
+            ],
+            "category": [
+                "tenis",
+                "esportivo",
+                "garota",
+                "mulher",
+                "colegial",
+                "tenis colegial",
+                "kids",
+                "molekinha"
+            ],
+            "color": ["Marinho"],
+            "marca": "Molekinha",
+            "logomarca": "Molekinha",
+            "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "thumbnail": "product-8",
+            "featured": 1,
+            "code": "5632.422",
+            "num": 8
+        },
+
+        {
+            "name": "Tênis Feminino Moleca Napa marinho",
+            "price": "89,99",
+            "desconto": "0",
+            "size": [
+                "38"
+            ],
+            "category": [
+                "tenis",
+                "esportivo",
+                "garota",
+                "mulher",
+                "colegial",
+                "tenis colegial",
+                "kids",
+                "molekinha"
+            ],
+            "color": ["Marinho"],
+            "marca": "Molekinha",
+            "logomarca": "Molekinha",
+            "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "thumbnail": "product-9",
+            "featured": 1,
+            "code": "5688.201",
+            "num": 9
+        },
+
+        {
+            "name": "Tenis Casual Beira Rio Camel Feminino",
+            "price": "89,99",
+            "desconto": "0",
+            "size": [
+                "34",
+                "35",
+                "36",
+                "37",
+                "38"
+            ],
+            "category": [
+                "tenis",
+                "esportivo",
+                "garota",
+                "mulher",
+                "colegial",
+                "tenis colegial",
+                "beira rio"
+            ],
+            "color": ["Preto"],
+            "marca": "Beira Rio",
+            "logomarca": "Beira Rio",
+            "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "thumbnail": "product-10",
+            "featured": 1,
+            "code": "4258.101",
+            "num": 10
+        },
+
+        {
+        "name": "Tênis Feminino Molekinha Plataforma Napa Preto",
+            "price": "104,99",
+            "desconto": "0",
+            "size": [
+                "27",
+                "29",
+                "31",
+                "32",
+                "33",
+                "34"
+            ],
+            "category": [
+                "tenis",
+                "infantil",
+                "garota",
+                "mulher",
+                "colegial",
+                "tenis colegial",
+                "kids",
+                "molekinha"
+            ],
+            "color": ["Preto"],
+            "marca": "Molekinha",
+            "logomarca": "Molekinha",
+            "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "thumbnail": "product-11",
+            "featured": 1,
+            "code": "4258.101",
+            "num": 11   
+        },
+
+        {
+            "name": "Tênis Feminino Molekinha Plataforma Napa Rosa",
+                "price": "104,99",
+                "desconto": "0",
+                "size": [
+                    "29",
+                    "33"
+                ],
+                "category": [
+                    "tenis",
+                    "infantil",
+                    "garota",
+                    "mulher",
+                    "colegial",
+                    "tenis colegial",
+                    "kids",
+                    "molekinha"
+                ],
+                "color": ["Rosa"],
+                "marca": "Molekinha",
+                "logomarca": "Molekinha",
+                "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                "thumbnail": "product-12",
+                "featured": 1,
+                "code": "4258.1011",
+                "num": 12   
+        },
+
+        {
+            "name": "Tênis Olympikus Insight Com Sistema de Amortecimento",
+                "price": "129,99",
+                "desconto": "0",
+                "size": [
+                    "37",
+                    "38",
+                    "39",
+                    "41",
+                    "42"
+                ],
+                "category": [
+                    "tenis",
+                    "esporte",
+                    "corrida",
+                    "homem",
+                    "mulher",
+                    "Olympikus"
+                ],
+                "color": ["vermelho"],
+                "marca": "Olympikus",
+                "logomarca": "Olympikus",
+                "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                "thumbnail": "product-13",
+                "featured": 1,
+                "code": "43247719",
+                "num": 13
+            },
+            {
+                "name": "Tenis Olympikus Horizon",
+                    "price": "349,99",
+                    "desconto": "0",
+                    "size": [
+                        "38",
+                        "39",
+                        "40",
+                        "41",
+                        "42"
+                    ],
+                    "category": [
+                        "tenis",
+                        "esporte",
+                        "corrida",
+                        "homem",
+                        "mulher",
+                        "Olympikus"
+                    ],
+                    "color": ["vermelho"],
+                    "marca": "Olympikus",
+                    "logomarca": "Olympikus",
+                    "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                    "thumbnail": "product-13",
+                    "featured": 1,
+                    "code": "43337735",
+                    "num": 14
+                },
             
-        },
-        {
-            "name":"teste3",
-            "price":"37,00",
-            "size":"35",
-            "category":["salto","salto estruturado","mulher"],
-            "color":"black",
-            "marca":"Beira Rio",
-            "logomarca": "beirario.png",
-            "descricao":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-            "thumbnail":"product-3",
-            "desconto":"0",
-            "featured" : 1,
-            "code" : "id3",
-            "num" : 3
-        },
-        {
-            "name":"teste4",
-            "price":"37,00",
-            "desconto":"0",
-            "size":"35",
-            "category":["salto","salto estruturado","mulher"],
-            "color":"black",
-            "marca":"Beira Rio",
-            "logomarca": "brand-2.png",
-            "descricao":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-            "thumbnail":"product-4",
-            "featured" : 0,
-            "code" : "id4",
-            "num" : 4
-        },
-        {
-            "name":"teste5",
-            "price":"37,00",
-            "desconto":"0",
-            "size":"35",
-            "category":["salto","salto estruturado","kids"],
-            "color":"black",
-            "marca":"Beira Rio",
-            "logomarca": "brand-2.png",
-            "descricao":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-            "thumbnail":"product-5",
-            "featured" : 1,
-            "code" : "id5",
-            "num" : 5
-        },
-        {
-            "name":"teste6",
-            "price":"37,00",
-            "desconto":"0",
-            "size":"35",
-            "category":["salto","salto estruturado","kids"],
-            "color":"black",
-            "marca":"Beira Rio",
-            "logomarca": "brand-2.png",
-            "descricao":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-            "thumbnail":"product-2",
-            "featured" : 1,
-            "code" : "id6",
-            "num" : 6
-        },
-        {
-            "name":"teste7",
-            "price":"37,00",
-            "desconto":"0",
-            "size":"35",
-            "category":["salto","salto estruturado","esporte"],
-            "color":"black",
-            "marca":"Beira Rio",
-            "logomarca": "brand-2.png",
-            "descricao":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-            "thumbnail":"product-2",
-            "featured" : 1,
-            "code" : "id7",
-            "num" : 7
-        },
-        {
-            "name":"teste8",
-            "price":"37,00",
-            "desconto":"0",
-            "size":"35",
-            "category":["salto","salto estruturado","esporte"],
-            "color":"black",
-            "marca":"Beira Rio",
-            "logomarca": "brand-2.png",
-            "descricao":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-            "thumbnail":"product-2",
-            "featured" : 1,
-            "code" : "id8",
-            "num" : 8
-        },
-        {
-            "name":"teste9",
-            "price":"37,00",
-            "desconto":"0",
-            "size":"35",
-            "category":["salto","salto estruturado","acessórios"],
-            "color":"black",
-            "marca":"Beira Rio",
-            "logomarca": "brand-2.png",
-            "descricao":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-            "thumbnail":"product-2",
-            "featured" : 1,
-            "code" : "id9",
-            "num" : 9
-        },
-        {
-            "name":"teste10",
-            "price":"37,00",
-            "desconto":"0",
-            "size":"35",
-            "category":["salto","salto estruturado","acessórios"],
-            "color":"black",
-            "marca":"Beira Rio",
-            "logomarca": "brand-2.png",
-            "descricao":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-            "thumbnail":"product-2",
-            "featured" : 1,
-            "code" : "id10",
-            "num" : 10
-        },
-        {
-            "name":"teste11",
-            "price":"37,00",
-            "desconto":"0",
-            "size":"35",
-            "category":["salto","salto estruturado"],
-            "color":"black",
-            "marca":"Beira Rio",
-            "logomarca": "brand-2.png",
-            "descricao":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-            "thumbnail":"product-2",
-            "featured" : 1,
-            "code" : "id11",
-            "num" : 11
-        },
-        {
-            "name":"teste12",
-            "price":"37,00",
-            "desconto":"0",
-            "size":"35",
-            "category":["salto","salto estruturado"],
-            "color":"black",
-            "marca":"Beira Rio",
-            "logomarca": "brand-2.png",
-            "descricao":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-            "thumbnail":"product-2",
-            "featured" : 1,
-            "code" : "id12",
-            "num" : 12
-        },
-        {
-            "name":"teste13",
-            "price":"37,00",
-            "desconto":"0",
-            "size":"35",
-            "category":["salto","salto estruturado"],
-            "color":"black",
-            "marca":"Beira Rio",
-            "logomarca": "brand-2.png",
-            "descricao":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-            "thumbnail":"product-2",
-            "featured" : 1,
-            "code" : "id13",
-            "num" : 13
-        },
-        {
-            "name":"teste14",
-            "price":"37,00",
-            "desconto":"0",
-            "size":"35",
-            "category":["salto","salto estruturado"],
-            "color":"black",
-            "marca":"Beira Rio",
-            "logomarca": "brand-2.png",
-            "descricao":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-            "thumbnail":"product-2",
-            "featured" : 0,
-            "code" : "id14",
-            "num" : 14
-        },
-        {
-            "name":"teste15",
-            "price":"37,00",
-            "desconto":"0",
-            "size":"37",
-            "category":["salto","salto estruturado"],
-            "color":"black",
-            "marca":"Beira Rio",
-            "logomarca": "brand-2.png",
-            "descricao":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-            "thumbnail":"product-2",
-            "featured" : 1,
-            "code" : "id15",
-            "num" : 15
-        }
-        
+        {}
     ]
 }
+
+
