@@ -20,7 +20,8 @@
                 "sandalia salto grosso",
                 "feminino",
                 "mulher",
-                "vizzano"
+                "vizzano",
+                "sandalia feminina vizzano salto grosso verniz"
             ],
             "color": [
                 "Verniz Premium light"
@@ -53,7 +54,8 @@
                 "sandalia salto grosso",
                 "feminino",
                 "mulher",
-                "vizzano"
+                "vizzano",
+                "sandália feminina vizzano salto plataforma preta"
             ],
             "color": [
                 "Preto Verniz"
@@ -86,7 +88,8 @@
                 "salto alto",
                 "mulher",
                 "feminino",
-                "vizzano"
+                "beira rio",
+                "sandalia feminino beira rio salto medio nude"
             ],
             "color": [
                 "Nude"
@@ -94,7 +97,7 @@
             "marca": "Beira Rio",
             "logomarca": "Beira Rio",
             "descricao": "A Sandália Feminina Salto Médio Beira Rio 8379.204 Verniz, é confeccionada em material sintético (verniz), seu cabedal conta com uma tira fina toda em cima dos dedos e outra com detalhe de uma linda fivela, trazendo delicadeza e sofisticação para a sandália. É perfeita tanto para o trabalho quanto para os passeios de fim de semana, garantindo sua segurança, praticidade e conforto. Seu fechamento se dá através de uma tira elástica no calcanhar, ajustando-se aos seus pés. Sua palmilha possui leve acolchoamento. É uma peça cheia de personalidade que possui um salto médio no calcanhar, tornando a sandália destaque em questão de design. Solado em borracha antiderrapante, dando maior segurança durante cada passo. Salto de 5,0 cm de altura..</br>",
-            "thumbnail": "beirario",
+            "thumbnail": "product-3",
             "featured": 1,
             "code": "8379.204",
             "num": 3
@@ -102,7 +105,7 @@
 
 
         {
-            "name": "Sandália Salto Médio Feminina Beira Rio ",
+            "name": "Sandália Salto Médio Feminina Beira Rio",
             "price": "114,99",
             "desconto": "0",
             "size": [
@@ -119,14 +122,15 @@
                 "salto alto",
                 "feminino",
                 "mulher",
-                "vizzano"
+                "beira rio",
+                "sandália salto médio feminina beira rio"
             ],
             "color": "Verniz Fachet",
             "marca": "Beira Rio",
             "logomarca": "Beira Rio",
             "descricao": "A Sandália Salto Médio Feminina Beira Rio  é confeccionada em material sintético (napa turim), seu solado é em PVC antiderrapante, garantindo mais segurança ao andar, contém um elástico na parte traseira, ajustando-se aos seus pés. Seu salto é grosso com aproximadamente 5,5 centímetros de altura.</br></br>Como usar:</br</br>Essa sandália além de linda e versátil, vem com grande elegância em qualquer combinação a ser formada. Pode ser usada com diferentes modelos de calças, saias, vestidos, entre outros. Por se tratar de ser uma modelo básico use e abuse desta peça, ocasiões mais especiais ou até mesmo dia a dia para trabalho, pois ela tem um toque de leveza e conforto para seus pés. Use com vestidos e saias leves, para um visual mais romântico, se você quer um look mais urbano, aposte com calças jeans e t-shirts, independente do modelo o que sabemos é que elas vão se mostrar presente e serão um arraso.",
             "thumbnail": "product-4",
-            "featured": 0,
+            "featured": 1,
             "code": "8379.214",
             "num": 4
         },
@@ -148,7 +152,8 @@
                 "estampa",
                 "estampada",
                 "mulher",
-                "beira rio"
+                "beira rio",
+                "rasteira beira rio feminina estampada"
             ],
             "color":["Salmão"],
             "marca": "Beira Rio",
@@ -179,7 +184,8 @@
                 "estampa",
                 "estampada",
                 "mulher",
-                "beira rio"
+                "beira rio",
+                "rasteira beira rio transpassada"
             ],
             "color": ["Camel"],
             "marca": "Beira Rio",
@@ -207,12 +213,13 @@
                 "fivela",
                 "casual",
                 "mulher",
-                "ramarim"
+                "ramarim",
+                "rasteira ramarim apliques preta"
             ],
-            "color": ["Carmel"],
+            "color": ["Preto"],
             "marca": "Ramarim",
             "logomarca": "Beira Rio",
-            "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "descricao": "Rasteira Ramarim Apliques Dourada</br>Observação: Por possuírem alto brilho e acabamento diferenciado, os calçados podem apresentar marcas durante sua fabricação e/ou variação na coloração de acordo com a peça, que tendem a aumentar ao longo do tempo. Por isso, esse tipo de produto necessita de cuidados especiais:/<br>- Evite o atrito, que provoca arranhões, descamações e riscos, o calor, que reduz o brilho da peça, tornando-o fosco, e a fricção, que causa desgaste e pode deixa-lo esbranquiçado;</br>- Evite o atrito, que provoca arranhões, descamações e riscos, o calor, que reduz o brilho da peça, tornando-o fosco, e a fricção, que causa desgaste e pode deixa-lo esbranquiçado;",
             "thumbnail": "product-7",
             "featured": 1,
             "code": "20-24101",
@@ -239,7 +246,9 @@
                 "colegial",
                 "tenis colegial",
                 "kids",
-                "molekinha"
+                "molekinha",
+                "moleka",
+                "tênis feminino moleca escama gloss marinho"
             ],
             "color": ["Marinho"],
             "marca": "Moleca",
@@ -256,7 +265,10 @@
             "price": "89,99",
             "desconto": "0",
             "size": [
-                "38"
+                "36",
+                "37",
+                "38",
+                "39"
             ],
             "category": [
                 "tenis",
@@ -266,12 +278,14 @@
                 "colegial",
                 "tenis colegial",
                 "kids",
-                "molekinha"
+                "molekinha",
+                "moleka",
+                "tênis feminino moleca napa marinho"
             ],
             "color": ["Marinho"],
             "marca": "Moleca",
             "logomarca": "Moleca",
-            "descricao": "A MOLECA LANÇA MAIS UMA LINDA NOVIDADE PARA SEU PÚBLICO FEMININO, ALÉM DE CONFORTO E MACIEZ, PROPORCIONA MAIS BELEZA AO DIA A DIA. O CALÇADO OFERECE UM BELO DESIGN, COMBINAÇÕES VARIADAS COM DIVERSOS LOOKS.</br></br>CONFECCIONADO EM MATERIAL SINTÉTICO E FECHAMENTO POR CADARÇO COM ANÉIS NO ACABAMENTO PARA PROPORCIONAR MAIOR REFINAMENTO NO RESULTADO FINAL. </br></br>POSSUI PALMILHA MACIA COM ALTA ABSORÇÃO DE IMPACTO E UMIDADE, SOLADO FLEXÍVEL, EMBORRACHADO COM FRISOS ANTIDERRAPANTE PARA GARANTIR MAIOR SEGURANÇA E CONFORTO AO CAMINHAR. ",
+            "descricao": "A Moleca Lança Mais Uma Linda Novidade para Seu Público Feminino, Além de Conforto e Maciez, Proporciona Mais Beleza Ao Dia a Dia. o Calçado Oferece Um Belo Design, Combinações Variadas Com Diversos Looks. Confeccionado Em Material Sintético e Fechamento por Cadarço Com Anéis no Acabamento para Proporcionar Maior Refinamento no Resultado Final. Possui Palmilha Macia Com Alta Absorção de Impacto e Umidade, Solado Flexível, Emborrachado Com Frisos Antiderrapante para Garantir Maior Segurança e Conforto Ao Caminhar. Seu Material Além de Resistente, é de Fácil Higienização, Diminuindo o Tempo na Lavagem. Solado de Aproximadamente 3cm.",
             "thumbnail": "product-9",
             "featured": 1,
             "code": "5688.201",
@@ -279,7 +293,7 @@
         },
 
         {
-            "name": "Tenis Casual Beira Rio Camel Feminino",
+            "name": "Tenis Casual Beira Rio Feminino Preto",
             "price": "89,99",
             "desconto": "0",
             "size": [
@@ -296,12 +310,13 @@
                 "mulher",
                 "colegial",
                 "tenis colegial",
-                "beira rio"
+                "beira rio",
+                "tenis casual beira rio feminino preto"
             ],
             "color": ["Preto"],
             "marca": "Beira Rio",
             "logomarca": "Beira Rio",
-            "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "descricao": "A Beira Rio Sempre Arrasando Apostou Nesse Modelo Super Lindo e Confortável, Sendo Ideal para Mulheres Com Estilo. o Solado é Emborrachado Com Relevos Que Ficam Evidentes Quando o Sapato é Observado Pelas Laterais, as Palmilhas São Macias e Confortáveis, o Beira Rio Foi Feito Com Material Sintético, Contém Cadarços Que Facilitam o Calce.",
             "thumbnail": "product-10",
             "featured": 1,
             "code": "4258.101",
@@ -328,15 +343,16 @@
                 "colegial",
                 "tenis colegial",
                 "kids",
-                "molekinha"
+                "molekinha",
+                "tênis feminino molekinha plataforma napa preto"
             ],
             "color": ["Preto"],
             "marca": "Molekinha",
             "logomarca": "Molekinha",
-            "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "descricao": "A Moda é Ser Criança! de Molekinha nos Pés, Ser Fashionista Se Transforma Em Uma Doce Brincadeira – e Com Direito a Uma Dose Generosa de Diversão! de Olho no Estilo das Meninas Mais Antenadas, a Marca Mostra Novidades Em Sintonia Com o Universo Infantil e é Especialista Em Lookinhos Repletos de Atitude! Tênis São Indicados Serem Utilizados no Dia-a-dia. Buscam Maior Conforto Com Um Design Diferenciado. Confeccionado Em Materiais Alternativos de Alta Qualidade.",
             "thumbnail": "product-11",
             "featured": 1,
-            "code": "4258.101",
+            "code": "2520.1211-1",
             "num": 11   
         },
 
@@ -356,15 +372,16 @@
                     "colegial",
                     "tenis colegial",
                     "kids",
-                    "molekinha"
+                    "molekinha",
+                    "tênis feminino molekinha plataforma napa rosa"
                 ],
                 "color": ["Rosa"],
                 "marca": "Molekinha",
                 "logomarca": "Molekinha",
-                "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                "descricao": "A Moda é Ser Criança! de Molekinha nos Pés, Ser Fashionista Se Transforma Em Uma Doce Brincadeira – e Com Direito a Uma Dose Generosa de Diversão! de Olho no Estilo das Meninas Mais Antenadas, a Marca Mostra Novidades Em Sintonia Com o Universo Infantil e é Especialista Em Lookinhos Repletos de Atitude! Tênis São Indicados Serem Utilizados no Dia-a-dia. Buscam Maior Conforto Com Um Design Diferenciado. Confeccionado Em Materiais Alternativos de Alta Qualidade.",
                 "thumbnail": "product-12",
                 "featured": 1,
-                "code": "4258.1011",
+                "code": "2520.1211-2",
                 "num": 12   
         },
 
@@ -377,27 +394,30 @@
                     "38",
                     "39",
                     "41",
-                    "42"
+                    "42",
+                    "43"
                 ],
                 "category": [
                     "tenis",
                     "esporte",
                     "corrida",
                     "homem",
-                    "mulher",
-                    "Olympikus"
+                    "olympikus",
+                    "tênis olympikus insight com sistema de amortecimento"
                 ],
-                "color": ["vermelho"],
+                "color": ["Preto/Vermelho"],
                 "marca": "Olympikus",
                 "logomarca": "Olympikus",
-                "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                "descricao": "O Novo Modelo Insight da Olympikus Possui Sistema de Amortecimento Interno e Um Exterior, Que Forma Um Exoesqueleto de Amortecimento para Auxiliar Ainda Mais o Solado na Absorção de Impactos Em Caminhadas e Corridas.",
                 "thumbnail": "product-13",
                 "featured": 1,
                 "code": "43247719",
                 "num": 13
             },
+
+
             {
-                "name": "Tenis Olympikus Horizon",
+                "name": "Tenis Olympikus Horizon Unissex Branco",
                     "price": "349,99",
                     "desconto": "0",
                     "size": [
@@ -413,12 +433,13 @@
                         "corrida",
                         "homem",
                         "mulher",
-                        "Olympikus"
+                        "olympikus",
+                        "tenis olympikus horizon unissex branco"
                     ],
-                    "color": ["vermelho"],
+                    "color": ["branco"],
                     "marca": "Olympikus",
                     "logomarca": "Olympikus",
-                    "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                    "descricao": "o Tênis Olympikus Horizon Tecnologia de Uma Ponta a Outra. no Cabedal Em Tecido Knit, o Hypersox Garante Conforto e Facilidade no Calce. Já o Solado Em Evasense Com a Camada de Tpu Perfurada Zomax+ Oferece Maior Amortecimento, Além de Muita Segurança e Estabilidade Graças Ao Estabilizador Supporter e Ao Antiderrapante Gripper para Maior Aderência.",
                     "thumbnail": "product-14",
                     "featured": 1,
                     "code": "43337735",
@@ -428,7 +449,7 @@
             
             {
                 "name": "Chinelo Slide Beira Rio Conforto",
-                    "price": "349,99",
+                    "price": "54,99",
                     "desconto": "0",
                     "size": [
                         "37"
@@ -444,7 +465,8 @@
                         "feminino",
                         "feminina",
                         "mulher",
-                        "ramarim"
+                        "ramarim",
+                        "chinelo slide beira rio conforto"
                     ],
                     "color": ["Dourado"],
                     "marca": "Beira Rio",
@@ -452,7 +474,7 @@
                     "descricao": "Chinelo Slide feminino, super confortável com solado antiderrapante acabamento da faixa texturizado, feito em material emborrachado. Informações Adicionais Material Externo: Sintético Emborrachado Solado:</br> Antiderrapante Cores: Ouro Rosado Marca: Beira Rio",
                     "thumbnail": "product-15",
                     "featured": 1,
-                    "code": "43337735",
+                    "code": "8359.112",
                     "num": 15
             },    
             

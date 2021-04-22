@@ -142,9 +142,7 @@ hr{
     background-color: white;
 }
 
-.carousel .carousel-item > div {
-    height: 300px;
-}
+
 .carousel .bi{
     font-size: 1.5rem;
     color: #ff3137;

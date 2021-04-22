@@ -12,6 +12,19 @@ let porPage=12;
 
 var db = firebase.firestore();
 
+if(filter == null && search == null){
+    readBdFeatured(porPage, init)
+    console.log("no filter")
+} 
+if(!(filter == null)){
+    readBdFeaturedFilter(porPage, init,filter)
+    console.log("com filter")
+}
+if(filter == null || !(search == null)){
+    readBdFeaturedSearch(porPage, init,search)
+    console.log("com filter")
+}
+
 const html = {
     get(element){
         return document.querySelector(element)
@@ -25,7 +38,19 @@ const controle = {
             
             document.getElementById("lista").innerHTML="";
             init+=porPage
-            readBdFeatured(porPage, init)
+            console.log(init)
+            if(filter == null && search == null){
+                readBdFeatured(porPage, init)
+                console.log("no filter")
+            } 
+            if(!(filter == null)){
+                readBdFeaturedFilter(porPage, init,filter)
+                console.log("com filter")
+            }
+            if(filter == null || !(search == null)){
+                readBdFeaturedSearch(porPage, init,search)
+                console.log("com filter")
+            }
             
             
             
@@ -34,7 +59,18 @@ const controle = {
             
             document.getElementById("lista").innerHTML="";
             init-=porPage
-            readBdFeatured(porPage, init)
+            if(filter == null && search == null){
+                readBdFeatured(porPage, init)
+                console.log("no filter")
+            } 
+            if(!(filter == null)){
+                readBdFeaturedFilter(porPage, init,filter)
+                console.log("com filter")
+            }
+            if(filter == null || !(search == null)){
+                readBdFeaturedSearch(porPage, init,search)
+                console.log("com search")
+            }
             
         })
 
@@ -43,14 +79,6 @@ const controle = {
 }
     controle.listeners()
 
-    if(filter == null && search == null){
-        readBdFeatured(porPage, init)
-        console.log("no filter")
-    } 
-    if(!(filter == null)){
-        readBdFeaturedFilter(porPage, init,filter)
-        console.log("com filter")
-    }
     
 
 
@@ -58,7 +86,7 @@ const controle = {
 
 function readBdFeatured(pp,ini){
     db.collection("products")
-    .orderBy("id")
+    .orderBy("num")
     .startAfter(ini).limit(porPage)
     .get()
     .then((querySnapshot) => {
@@ -138,7 +166,7 @@ function readBdFeaturedFilter(pp,ini,filt){
        
 
 function readBdFeaturedSearch(pp,ini,filt){
-    db.collection("products").where('nome', 'array-contains-any',[filt])
+    db.collection("products").where('category', 'array-contains-any',[filt])
     .orderBy("num")
     .startAfter(ini).limit(porPage)
     .get()
