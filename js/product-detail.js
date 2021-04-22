@@ -67,35 +67,53 @@
             }).then((result) => {
                 if (result.value) {
                     const answers = JSON.stringify(result.value)
-                    if(answers == '"in"'){
+                    if(answers == '"out"'){
                         Swal.fire({
-                            title: "Agora é serio! Ultima coisa",
-                            text: "Selecione a cidade onde devemos te levar seu produto.",
+                            title: "Só mais uma coisa",
+                            text: "Selecione a cidade onde devemos levar seu produto.",
                             input: 'select',
                             icon: 'info',
                             inputOptions: {
-                                'via': 'Viana: Frete Grátis',
-                                'pen': 'Penalva: Frete Grátis',
-                                'vit': 'Vitória do Mearin: +R$15',
-                                'ara': 'Arari: +R$15',
-                                'mat': 'Matinha: +R$15',
-                                'oli': 'Olinda nova: +R$15',
-                                'caj': 'Cajari: +R$15'
-                            },confirmButtonText: 'Pronto!'
+                                'Viana': 'Viana: Frete Grátis',
+                                'Penalva': 'Penalva: Frete Grátis',
+                                'Vitória do Mearin': 'Vitória do Mearin: +R$15',
+                                'Arari': 'Arari: +R$15',
+                                'Matinha': 'Matinha: +R$15',
+                                'Olinda Nova': 'Olinda Nova: +R$15',
+                                'Cajari': 'Cajari: +R$15'
+                            },confirmButtonText: 'Pronto!',
+                            showCancelButton: true
+                          }).then((resulte) => {
+                            if (result.isConfirmed) {
+                            let city = JSON.stringify(resulte.value)
+                            Swal.fire({
+                                title: "Prontinho!",
+                                text: "Agora você será direcionada para o WhatsApp da Solar Calcados para finalizar sua compra.",
+                                icon: 'success',
+                                confirmButtonText: 'Pronto!'
+                              }).then((result) => {
+                                window.location.href = "https://api.whatsapp.com/send?phone=5598987527469&text=Ol%C3%A1.%20Gostaria%20de%20comprar%20o%20produto%3A%20"+nameProd+"%3B%20Tamanho%3A%20"+size+"%20e%20cor%3A%20"+color+"%20do%20site%20para%20entrega%20em%20"+city.replace('"','').replace('"','')+"."
+                                
+                              })
+                            }
+                            
                           })
                     }else{
                         Swal.fire({
-                            title: answers,
-                            html: `
-                              Your answers:
-                              <pre><code>${answers}</code></pre>
-                            `,
-                            confirmButtonText: 'Lovely!'
+                            title: "Prontinho!",
+                            text: "Agora você será direcionada para o WhatsApp da Solar Calcados para finalizar sua compra.",
+                            icon: 'success',
+                            confirmButtonText: 'Pronto!',
+                            showCancelButton: true
+                          }).then((result) => {
+                            if (result.isConfirmed) {
+                                window.location.href = "https://api.whatsapp.com/send?phone=5598987527469&text=Ol%C3%A1.%20Gostaria%20de%20comprar%20o%20produto%3A%20"+nameProd+"%3B%20Tamanho%3A%20"+size+"%20e%20cor%3A%20"+color+"%20do%20site%20para%20retirar%20na%20loja."
+                            }
                           })
                     }
                     
                   }
-            })  
+                })  
           }
             
         
