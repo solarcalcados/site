@@ -44,15 +44,15 @@
     document.getElementById('comprar').onclick = function(){
         if(color == "" || size == ""){
             Swal.fire({
-                title: 'Oops... Têm algum dado faltando',
-                text: 'Lembre-se de informar a sua cidade e escolher a cor e o tamanho do calçado   ',
+                title: 'Oops... Têm algum dado faltando.',
+                text: 'Lembre-se de informar a sua cidade e escolher a cor e o tamanho do calçado.',
                 icon: 'error',
                 confirmButtonText: 'Ok, vou fazer isso!'
             })
           }else{
             Swal.fire({
-                title: "Só mais uma coisa",
-                text: "Quanto ao seu produto, você quer...",
+                title: "Só mais uma coisa...",
+                text: "Quanto ao produto, você quer...",
                 input: 'radio',
                 icon: 'info',
                 inputOptions: {
@@ -69,7 +69,7 @@
                     const answers = JSON.stringify(result.value)
                     if(answers == '"out"'){
                         Swal.fire({
-                            title: "Só mais uma coisa",
+                            title: "Só mais uma coisa...",
                             text: "Selecione a cidade onde devemos levar seu produto.",
                             input: 'select',
                             icon: 'info',
@@ -88,7 +88,7 @@
                             let city = JSON.stringify(resulte.value)
                             Swal.fire({
                                 title: "Prontinho!",
-                                text: "Agora você será direcionada para o WhatsApp da Solar Calcados para finalizar sua compra.",
+                                text: "Agora você será direcionada para o WhatsApp da Solar Calçados para finalizar sua compra. Basta enviar a mensagem que será digitada.",
                                 icon: 'success',
                                 confirmButtonText: 'Pronto!'
                               }).then((result) => {
@@ -101,9 +101,9 @@
                     }else{
                         Swal.fire({
                             title: "Prontinho!",
-                            text: "Agora você será direcionada para o WhatsApp da Solar Calcados para finalizar sua compra.",
+                            text: "Agora você será direcionada para o WhatsApp da Solar Calçados para finalizar sua compra.Basta enviar a mensagem que será digitada.",
                             icon: 'success',
-                            confirmButtonText: 'Pronto!',
+                            confirmButtonText: 'Vamos lá!',
                             showCancelButton: true
                           }).then((result) => {
                             if (result.isConfirmed) {
