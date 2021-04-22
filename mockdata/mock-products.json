@@ -3,7 +3,7 @@
         {
             "name": "sandalia feminina vizzano salto grosso verniz",
             "price": "119,99",
-            "desconto": "10",
+            "desconto": "0",
             "size": [
                 "35",
                 "36",
@@ -18,6 +18,7 @@
                 "meia pata",
                 "salto grosso",
                 "sandalia salto grosso",
+                "feminino",
                 "mulher",
                 "vizzano"
             ],
@@ -32,6 +33,7 @@
             "code": "6292.300",
             "num": 1
         },
+
 
         {
             "name": "Sandália Feminina Vizzano Salto Plataforma Preta",
@@ -49,6 +51,7 @@
                 "meia pata",
                 "salto grosso",
                 "sandalia salto grosso",
+                "feminino",
                 "mulher",
                 "vizzano"
             ],
@@ -63,6 +66,7 @@
             "code": "6292.443",
             "num": 2
         },
+
 
         {
             "name": "Sandalia Feminino Beira Rio Salto Medio Nude",
@@ -81,6 +85,7 @@
                 "trazeira",
                 "salto alto",
                 "mulher",
+                "feminino",
                 "vizzano"
             ],
             "color": [
@@ -94,6 +99,7 @@
             "code": "8379.204",
             "num": 3
         },
+
 
         {
             "name": "Sandália Salto Médio Feminina Beira Rio ",
@@ -111,18 +117,20 @@
                 "com trazeira",
                 "trazeira",
                 "salto alto",
+                "feminino",
                 "mulher",
                 "vizzano"
             ],
             "color": "Verniz Fachet",
             "marca": "Beira Rio",
             "logomarca": "Beira Rio",
-            "descricao": "A Sandália Salto Médio Feminina Beira Rio 8379.214.21396 é confeccionada em material sintético (napa turim), seu solado é em PVC antiderrapante, garantindo mais segurança ao andar, contém um elástico na parte traseira, ajustando-se aos seus pés. Seu salto é grosso com aproximadamente 5,5 centímetros de altura.</br></br>Como usar:</br</br>Essa sandália além de linda e versátil, vem com grande elegância em qualquer combinação a ser formada. Pode ser usada com diferentes modelos de calças, saias, vestidos, entre outros. Por se tratar de ser uma modelo básico use e abuse desta peça, ocasiões mais especiais ou até mesmo dia a dia para trabalho, pois ela tem um toque de leveza e conforto para seus pés. Use com vestidos e saias leves, para um visual mais romântico, se você quer um look mais urbano, aposte com calças jeans e t-shirts, independente do modelo o que sabemos é que elas vão se mostrar presente e serão um arraso.",
+            "descricao": "A Sandália Salto Médio Feminina Beira Rio  é confeccionada em material sintético (napa turim), seu solado é em PVC antiderrapante, garantindo mais segurança ao andar, contém um elástico na parte traseira, ajustando-se aos seus pés. Seu salto é grosso com aproximadamente 5,5 centímetros de altura.</br></br>Como usar:</br</br>Essa sandália além de linda e versátil, vem com grande elegância em qualquer combinação a ser formada. Pode ser usada com diferentes modelos de calças, saias, vestidos, entre outros. Por se tratar de ser uma modelo básico use e abuse desta peça, ocasiões mais especiais ou até mesmo dia a dia para trabalho, pois ela tem um toque de leveza e conforto para seus pés. Use com vestidos e saias leves, para um visual mais romântico, se você quer um look mais urbano, aposte com calças jeans e t-shirts, independente do modelo o que sabemos é que elas vão se mostrar presente e serão um arraso.",
             "thumbnail": "product-4",
             "featured": 0,
             "code": "8379.214",
             "num": 4
         },
+
 
         {
             "name": "Rasteira Beira Rio Feminina Estampada",
@@ -130,7 +138,6 @@
             "desconto": "0",
             "size": [
                 "35",
-                "36",
                 "37"
             ],
             "category": [
@@ -146,12 +153,14 @@
             "color":["Salmão"],
             "marca": "Beira Rio",
             "logomarca": "Beira Rio",
-            "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "descricao": "Rasteirinha feminina confeccionada em material sintético com acabamento em verniz. Possui palmilha com alta absorção de impacto e umidade, solado flexível, emborrachado com frisos antiderrapante para garantir maior segurança e conforto ao caminhar.",
             "thumbnail": "product-5",
             "featured": 1,
             "code": "8237.283",
             "num": 5
         },
+
+
         {
             "name": "Rasteira Beira Rio Transpassada",
             "price": "54,99",
@@ -175,12 +184,14 @@
             "color": ["Camel"],
             "marca": "Beira Rio",
             "logomarca": "Beira Rio",
-            "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "descricao": "Rasteira Beira Rio com acabamento em verniz, possui palmilha confortável com estampa floral.</br>A Beira Rio conseguiu unir conforto e beleza em seus calçados, com estruturas e materiais de qualidade, seus calçados são pensados para que todas as mulheres cada uma com seu estilo, possa montar looks cheios de charme!",
             "thumbnail": "product-6",
             "featured": 1,
             "code": "8237.284",
             "num": 6
         },
+
+
         {
             "name": "Rasteira Ramarim Apliques Preta",
             "price": "109,99",
@@ -208,6 +219,7 @@
             "num": 7
         },
 
+
         {
             "name": "Tênis Feminino Moleca Escama Gloss marinho",
             "price": "89,99",
@@ -230,9 +242,9 @@
                 "molekinha"
             ],
             "color": ["Marinho"],
-            "marca": "Molekinha",
-            "logomarca": "Molekinha",
-            "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "marca": "Moleca",
+            "logomarca": "Moleca",
+            "descricao": "Tênis Feminino Moleca  confeccionado em materiais alternativos de alta qualidade.</br></br>Detalhe: Aplicação do logo da marca.</br></br>Possui cadarço para melhor ajuste aos pés.</br></br>Material Alternativo é todo o material que não é Couro natural (origem animal). Geralmente em sintético como: PU, Plástico, Borracha, tecido entre outros.</br></br></br>Tênis Casuais são indicados serem utilizados no dia-a-dia tanto como em evento sociais. Buscam maior conforto com um design diferenciado.",
             "thumbnail": "product-8",
             "featured": 1,
             "code": "5632.422",
@@ -257,9 +269,9 @@
                 "molekinha"
             ],
             "color": ["Marinho"],
-            "marca": "Molekinha",
-            "logomarca": "Molekinha",
-            "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "marca": "Moleca",
+            "logomarca": "Moleca",
+            "descricao": "A MOLECA LANÇA MAIS UMA LINDA NOVIDADE PARA SEU PÚBLICO FEMININO, ALÉM DE CONFORTO E MACIEZ, PROPORCIONA MAIS BELEZA AO DIA A DIA. O CALÇADO OFERECE UM BELO DESIGN, COMBINAÇÕES VARIADAS COM DIVERSOS LOOKS.</br></br>CONFECCIONADO EM MATERIAL SINTÉTICO E FECHAMENTO POR CADARÇO COM ANÉIS NO ACABAMENTO PARA PROPORCIONAR MAIOR REFINAMENTO NO RESULTADO FINAL. </br></br>POSSUI PALMILHA MACIA COM ALTA ABSORÇÃO DE IMPACTO E UMIDADE, SOLADO FLEXÍVEL, EMBORRACHADO COM FRISOS ANTIDERRAPANTE PARA GARANTIR MAIOR SEGURANÇA E CONFORTO AO CAMINHAR. ",
             "thumbnail": "product-9",
             "featured": 1,
             "code": "5688.201",
@@ -407,11 +419,42 @@
                     "marca": "Olympikus",
                     "logomarca": "Olympikus",
                     "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-                    "thumbnail": "product-13",
+                    "thumbnail": "product-14",
                     "featured": 1,
                     "code": "43337735",
                     "num": 14
-                },
+            },
+
+            
+            {
+                "name": "Chinelo Slide Beira Rio Conforto",
+                    "price": "349,99",
+                    "desconto": "0",
+                    "size": [
+                        "37"
+                    ],
+                    "category": [
+                        "chinelo",
+                        "chinela",
+                        "rasteira",
+                        "sandalia",
+                        "slide",
+                        "fivela",
+                        "casual",
+                        "feminino",
+                        "feminina",
+                        "mulher",
+                        "ramarim"
+                    ],
+                    "color": ["Dourado"],
+                    "marca": "Beira Rio",
+                    "logomarca": "Beira Rio",
+                    "descricao": "Chinelo Slide feminino, super confortável com solado antiderrapante acabamento da faixa texturizado, feito em material emborrachado. Informações Adicionais Material Externo: Sintético Emborrachado Solado:</br> Antiderrapante Cores: Ouro Rosado Marca: Beira Rio",
+                    "thumbnail": "product-15",
+                    "featured": 1,
+                    "code": "43337735",
+                    "num": 15
+            },    
             
         {}
     ]
