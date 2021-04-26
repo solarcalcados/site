@@ -476,8 +476,325 @@
                     "featured": 1,
                     "code": "8359.112",
                     "num": 15
-            },    
+            },
             
+
+            {
+                "name": "Bolsa feminina Pallas Caramelo ca 397",
+                    "price": "54,99",
+                    "desconto": "0",
+                    "size": [
+                        "-"
+                    ],
+                    "category": [
+                        "bolsa",
+                        "feminino",
+                        "feminina",
+                        "mulher",
+                        "acessórios",
+                        "pallas",
+                        "bolsa feminina pallas caramelo ca 397"
+                    ],
+                    "color": ["Camarelo"],
+                    "marca": "Pallas",
+                    "logomarca": "pallas",
+                    "descricao": "Chinelo Slide feminino, super confortável com solado antiderrapante acabamento da faixa texturizado, feito em material emborrachado. Informações Adicionais Material Externo: Sintético Emborrachado Solado:</br> Antiderrapante Cores: Ouro Rosado Marca: Beira Rio",
+                    "thumbnail": "product-16",
+                    "featured": 1,
+                    "code": "ca-397",
+                    "num": 16
+            },
+
+            
+            {
+                "name":"Bolsa feminina Pallas Cinza ca 363",
+                    "price": "54,99",
+                    "desconto": "0",
+                    "size": [
+                        "-"
+                    ],
+                    "category": [
+                        "bolsa",
+                        "feminino",
+                        "feminina",
+                        "mulher",
+                        "acessórios",
+                        "pallas",
+                        "bolsa feminina pallas Cinza ca 363"
+                    ],
+                    "color": ["Cinza"],
+                    "marca": "Pallas",
+                    "logomarca": "pallas",
+                    "descricao": "Chinelo Slide feminino, super confortável com solado antiderrapante acabamento da faixa texturizado, feito em material emborrachado. Informações Adicionais Material Externo: Sintético Emborrachado Solado:</br> Antiderrapante Cores: Ouro Rosado Marca: Beira Rio",
+                    "thumbnail": "product-17",
+                    "featured": 1,
+                    "code": "ca-363",
+                    "num": 17
+            },
+            
+            
+            {
+                "name":"Bolsa feminina Pallas Preta ca 392",
+                    "price": "54,99",
+                    "desconto": "0",
+                    "size": [
+                        "-"
+                    ],
+                    "category": [
+                        "bolsa",
+                        "feminino",
+                        "feminina",
+                        "mulher",
+                        "acessórios",
+                        "pallas",
+                        "bolsa feminina pallas preta ca 392"
+                    ],
+                    "color": ["Preta"],
+                    "marca": "Pallas",
+                    "logomarca": "pallas",
+                    "descricao": "Chinelo Slide feminino, super confortável com solado antiderrapante acabamento da faixa texturizado, feito em material emborrachado. Informações Adicionais Material Externo: Sintético Emborrachado Solado:</br> Antiderrapante Cores: Ouro Rosado Marca: Beira Rio",
+                    "thumbnail": "product-18",
+                    "featured": 1,
+                    "code": "ca-392",
+                    "num": 18
+            },
+
+
+            {
+                "name":"Bolsa feminina Pallas Caramelo ca 395",
+                    "price": "54,99",
+                    "desconto": "0",
+                    "size": [
+                        "-"
+                    ],
+                    "category": [
+                        "bolsa",
+                        "feminino",
+                        "feminina",
+                        "mulher",
+                        "acessórios",
+                        "pallas",
+                        "bolsa feminina pallas Caramelo ca 395"
+                    ],
+                    "color": ["Caramelo"],
+                    "marca": "Pallas",
+                    "logomarca": "pallas",
+                    "descricao": "Chinelo Slide feminino, super confortável com solado antiderrapante acabamento da faixa texturizado, feito em material emborrachado. Informações Adicionais Material Externo: Sintético Emborrachado Solado:</br> Antiderrapante Cores: Ouro Rosado Marca: Beira Rio",
+                    "thumbnail": "product-19",
+                    "featured": 1,
+                    "code": "ca-395",
+                    "num": 19
+            },
+
+            {
+                "name":"Bolsa feminina Pallas Rose ca 393",
+                    "price": "54,99",
+                    "desconto": "0",
+                    "size": [
+                        "-"
+                    ],
+                    "category": [
+                        "bolsa",
+                        "feminino",
+                        "feminina",
+                        "mulher",
+                        "acessórios",
+                        "pallas",
+                        "bolsa feminina pallas Rose ca 393"
+                    ],
+                    "color": ["Rose"],
+                    "marca": "Pallas",
+                    "logomarca": "pallas",
+                    "descricao": "Chinelo Slide feminino, super confortável com solado antiderrapante acabamento da faixa texturizado, feito em material emborrachado. Informações Adicionais Material Externo: Sintético Emborrachado Solado:</br> Antiderrapante Cores: Ouro Rosado Marca: Beira Rio",
+                    "thumbnail": "product-20",
+                    "featured": 1,
+                    "code": "ca-393",
+                    "num": 20
+            },
+
+            {
+                "name":"Bolsa feminina Pallas Marfim ca 398m",
+                    "price": "54,99",
+                    "desconto": "0",
+                    "size": [
+                        "-"
+                    ],
+                    "category": [
+                        "bolsa",
+                        "feminino",
+                        "feminina",
+                        "mulher",
+                        "acessórios",
+                        "pallas",
+                        "bolsa feminina pallas marfim ca 398m"
+                    ],
+                    "color": ["Marfim"],
+                    "marca": "Pallas",
+                    "logomarca": "pallas",
+                    "descricao": "Chinelo Slide feminino, super confortável com solado antiderrapante acabamento da faixa texturizado, feito em material emborrachado. Informações Adicionais Material Externo: Sintético Emborrachado Solado:</br> Antiderrapante Cores: Ouro Rosado Marca: Beira Rio",
+                    "thumbnail": "product-21",
+                    "featured": 1,
+                    "code": "ca-398m",
+                    "num": 21
+            },
+
+            {
+                "name":"Bolsa feminina Pallas Nude ca 379",
+                    "price": "54,99",
+                    "desconto": "0",
+                    "size": [
+                        "-"
+                    ],
+                    "category": [
+                        "bolsa",
+                        "feminino",
+                        "feminina",
+                        "mulher",
+                        "acessórios",
+                        "pallas",
+                        "bolsa feminina pallas nude ca 379"
+                    ],
+                    "color": ["Nude"],
+                    "marca": "Pallas",
+                    "logomarca": "pallas",
+                    "descricao": "Chinelo Slide feminino, super confortável com solado antiderrapante acabamento da faixa texturizado, feito em material emborrachado. Informações Adicionais Material Externo: Sintético Emborrachado Solado:</br> Antiderrapante Cores: Ouro Rosado Marca: Beira Rio",
+                    "thumbnail": "product-22",
+                    "featured": 1,
+                    "code": "ca-379",
+                    "num": 22
+            },
+
+
+            {
+                "name":"Bolsa feminina Pallas Marron ca 366",
+                    "price": "54,99",
+                    "desconto": "0",
+                    "size": [
+                        "-"
+                    ],
+                    "category": [
+                        "bolsa",
+                        "feminino",
+                        "feminina",
+                        "mulher",
+                        "acessórios",
+                        "pallas",
+                        "bolsa feminina pallas marron ca 366"
+                    ],
+                    "color": ["Marron"],
+                    "marca": "Pallas",
+                    "logomarca": "pallas",
+                    "descricao": "Chinelo Slide feminino, super confortável com solado antiderrapante acabamento da faixa texturizado, feito em material emborrachado. Informações Adicionais Material Externo: Sintético Emborrachado Solado:</br> Antiderrapante Cores: Ouro Rosado Marca: Beira Rio",
+                    "thumbnail": "product-23",
+                    "featured": 1,
+                    "code": "ca-366",
+                    "num": 23
+            },
+
+            {
+                "name":"Bolsa feminina Pallas Preta ca 385",
+                    "price": "54,99",
+                    "desconto": "0",
+                    "size": [
+                        "-"
+                    ],
+                    "category": [
+                        "bolsa",
+                        "feminino",
+                        "feminina",
+                        "mulher",
+                        "acessórios",
+                        "pallas",
+                        "bolsa feminina pallas preta ca 385"
+                    ],
+                    "color": ["Preto"],
+                    "marca": "Pallas",
+                    "logomarca": "pallas",
+                    "descricao": "Chinelo Slide feminino, super confortável com solado antiderrapante acabamento da faixa texturizado, feito em material emborrachado. Informações Adicionais Material Externo: Sintético Emborrachado Solado:</br> Antiderrapante Cores: Ouro Rosado Marca: Beira Rio",
+                    "thumbnail": "product-24",
+                    "featured": 1,
+                    "code": "ca-385",
+                    "num": 24
+            },
+
+
+            {
+                "name":"Bolsa feminina Pallas Preta ca 398p",
+                    "price": "54,99",
+                    "desconto": "0",
+                    "size": [
+                        "-"
+                    ],
+                    "category": [
+                        "bolsa",
+                        "feminino",
+                        "feminina",
+                        "mulher",
+                        "acessórios",
+                        "pallas",
+                        "bolsa feminina pallas preta ca 398p"
+                    ],
+                    "color": ["Preto"],
+                    "marca": "Pallas",
+                    "logomarca": "pallas",
+                    "descricao": "Chinelo Slide feminino, super confortável com solado antiderrapante acabamento da faixa texturizado, feito em material emborrachado. Informações Adicionais Material Externo: Sintético Emborrachado Solado:</br> Antiderrapante Cores: Ouro Rosado Marca: Beira Rio",
+                    "thumbnail": "product-25",
+                    "featured": 1,
+                    "code": "ca-398p",
+                    "num": 25
+            },
+
+            {
+                "name":"Bolsa feminina Pallas Bege ca 387",
+                    "price": "54,99",
+                    "desconto": "0",
+                    "size": [
+                        "-"
+                    ],
+                    "category": [
+                        "bolsa",
+                        "feminino",
+                        "feminina",
+                        "mulher",
+                        "acessórios",
+                        "pallas",
+                        "bolsa feminina pallas bege ca 387"
+                    ],
+                    "color": ["Bege"],
+                    "marca": "Pallas",
+                    "logomarca": "pallas",
+                    "descricao": "Chinelo Slide feminino, super confortável com solado antiderrapante acabamento da faixa texturizado, feito em material emborrachado. Informações Adicionais Material Externo: Sintético Emborrachado Solado:</br> Antiderrapante Cores: Ouro Rosado Marca: Beira Rio",
+                    "thumbnail": "product-26",
+                    "featured": 1,
+                    "code": "ca-387",
+                    "num": 26
+            },
+
+            {
+                "name":"Bolsa feminina Pallas Preta ca 380",
+                    "price": "54,99",
+                    "desconto": "0",
+                    "size": [
+                        "-"
+                    ],
+                    "category": [
+                        "bolsa",
+                        "feminino",
+                        "feminina",
+                        "mulher",
+                        "acessórios",
+                        "pallas",
+                        "bolsa feminina pallas preta ca 380"
+                    ],
+                    "color": ["Preta"],
+                    "marca": "Pallas",
+                    "logomarca": "pallas",
+                    "descricao": "Chinelo Slide feminino, super confortável com solado antiderrapante acabamento da faixa texturizado, feito em material emborrachado. Informações Adicionais Material Externo: Sintético Emborrachado Solado:</br> Antiderrapante Cores: Ouro Rosado Marca: Beira Rio",
+                    "thumbnail": "product-27",
+                    "featured": 1,
+                    "code": "ca-380",
+                    "num": 27
+            },
         {}
     ]
 }

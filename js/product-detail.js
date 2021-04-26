@@ -45,7 +45,7 @@
         if(color == "" || size == ""){
             Swal.fire({
                 title: 'Oops... Têm algum dado faltando.',
-                text: 'Lembre-se de informar a sua cidade e escolher a cor e o tamanho do calçado.',
+                text: 'Lembre-se de escolher a cor e o tamanho do calçado.',
                 icon: 'error',
                 confirmButtonText: 'Ok, vou fazer isso!'
             })
@@ -76,11 +76,11 @@
                             inputOptions: {
                                 'Viana': 'Viana: Frete Grátis',
                                 'Penalva': 'Penalva: Frete Grátis',
-                                'Vitória do Mearin': 'Vitória do Mearin: +R$15',
-                                'Arari': 'Arari: +R$15',
-                                'Matinha': 'Matinha: +R$15',
-                                'Olinda Nova': 'Olinda Nova: +R$15',
-                                'Cajari': 'Cajari: +R$15'
+                                'Vitória do Mearim': 'Vitória do Mearin: R$15',
+                                'Arari': 'Arari: R$15',
+                                'Matinha': 'Matinha: R$15',
+                                'Olinda Nova': 'Olinda Nova: R$15',
+                                'Cajari': 'Cajari: R$15'
                             },confirmButtonText: 'Pronto!',
                             showCancelButton: true
                           }).then((resulte) => {
@@ -173,6 +173,11 @@ function populatPage(sizes,colors){
 
             for(let i = 0; i < doc.data().size.length; i++){
                 document.getElementById("size-div").innerHTML += '<span id=list[t].size[t] tabindex="0" class="badge badge-danger shadow-sm size">'+doc.data().size[i]+'</span> <span class="selected-size"></span>'
+                console.log(doc.data().size)
+                if(doc.data().size == "-"){
+                    size = "padrão"
+                    console.log(size)
+                }
             }
             for(let i = 0; i < doc.data().color.length; i++){
                 document.getElementById("color-div").innerHTML += '<span id=list[t].size[t] tabindex="0" class="badge badge-danger shadow-sm color">'+doc.data().color[i]+'</span> <span class="selected-size"></span>'
