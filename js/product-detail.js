@@ -93,8 +93,9 @@
                                 confirmButtonText: 'Vamos lá!',
                                 showCancelButton: true
                               }).then((result) => {
-                                window.location.href = "https://api.whatsapp.com/send?phone=5598987527469&text=Ol%C3%A1.%20Gostaria%20de%20comprar%20o%20produto%3A%20"+nameProd+"%3B%20Tamanho%3A%20"+size+"%20e%20cor%3A%20"+color+"%20do%20site%20para%20entrega%20em%20"+city.replace('"','').replace('"','')+"."
-                                
+                                if (result.isConfirmed) {
+                                    window.location.href = "https://api.whatsapp.com/send?phone=5598987527469&text=Ol%C3%A1.%20Gostaria%20de%20comprar%20o%20produto%3A%20"+nameProd+"%3B%20Tamanho%3A%20"+size+"%20e%20cor%3A%20"+color+"%20do%20site%20para%20entrega%20em%20"+city.replace('"','').replace('"','')+"."
+                                }
                               })
                             }
                             
