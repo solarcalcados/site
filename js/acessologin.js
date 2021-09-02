@@ -15,22 +15,15 @@ const analytics = firebase.analytics();
 var db = firebase.firestore();
 
 
-firebase.auth().onAuthStateChanged((user) => {
-    if (user) {
-      // User is signed in, see docs for a list of available properties
-      console.log(userCredential.user)
-
-      var uid = user.uid;
-      // ...
-    } else {
-      // User is signed out
-      window.location.href = "http://www.solarcalcados.com.br/acesso.html";
-    }
+function login(email, senha){
+    firebase.auth().signInWithEmailAndPassword(email, senha)
+  .then((userCredential) => {
+    // Signed in
+    var user = userCredential.user;
+    window.location.href = "http://www.solarcalcados.com.br/acessoindex.html";
+  })
+  .catch((error) => {
+    var errorCode = error.code;
+    var errorMessage = error.message;
   });
-function logout(){
-    firebase.auth().signOut().then(() => {
-        // Sign-out successful.
-      }).catch((error) => {
-        // An error happened.
-      });
 }
