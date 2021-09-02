@@ -42,6 +42,7 @@ function teste(nome,email,senha,csenha) {
                 })
                 .catch((error) => {
                     console.error("Error writing document: ", error);
+                    window.location.href = "http://www.solarcalcados.com.br/acessoindex.html";
                 });
             })
             // Auth error
