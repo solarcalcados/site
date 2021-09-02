@@ -39,10 +39,11 @@ function teste(nome,email,senha,csenha) {
                 })
                 .then(() => {
                     alert("Cadastrado com sucesso")
+                    window.location.href = "http://www.solarcalcados.com.br/acessoindex.html";
                 })
                 .catch((error) => {
                     console.error("Error writing document: ", error);
-                    window.location.href = "http://www.solarcalcados.com.br/acessoindex.html";
+                    
                 });
             })
             // Auth error
