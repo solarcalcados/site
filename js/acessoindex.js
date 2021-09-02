@@ -20,6 +20,19 @@ firebase.auth().onAuthStateChanged((user) => {
       // User is signed in, see docs for a list of available properties
       var uid = user.uid;
 
+        db.collection("products")
+            .get()
+            .then((querySnapshot) => {
+                querySnapshot.forEach((doc) => {
+                    // doc.data() is never undefined for query doc snapshots
+                    console.log(doc.id, " => ", doc.data());
+                });
+            })
+            .catch((error) => {
+                console.log("Error getting documents: ", error);
+            });
+
+
       console.log(uid)
       // ...
     } else {
