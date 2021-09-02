@@ -35,7 +35,7 @@ firebase.auth().onAuthStateChanged((user) => {
             document.getElementById("lista").innerHTML+=htmlText;
                 
                 
-                console.log(doc.data().nome);
+                console.log(doc.data().price);
             });
         });
 
