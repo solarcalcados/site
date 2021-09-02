@@ -31,7 +31,7 @@ firebase.auth().onAuthStateChanged((user) => {
             
             let htmlText='';
 
-            htmlText+='<spam class="prodbox"><img class="prodimg"><h1 class="prodid">Id do procuto</h1><h1 class="prodname">Produto tal</h1><h2 class="prodvalue">Valor do produto</h2></spam>';
+            htmlText+='<spam class="prodbox"><img class="prodimg"><h1 class="prodid">',doc.data().id,'</h1><h1 class="prodname">',doc.data().name,'</h1><h2 class="prodvalue">',doc.data().price,'</h2></spam>';
             document.getElementById("lista").innerHTML+=htmlText;
                 
                 
