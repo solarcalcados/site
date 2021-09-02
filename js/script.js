@@ -20,7 +20,7 @@ function teste(nome,email,senha,csenha) {
     if(!(senha == csenha)){
         alert("Tem coisa errada aí")
     } else if(nome == "" || email == "" || senha == "" || csenha == ""){
-        alert("Tem coisa vazia   aí")
+        alert("Tem coisa vazia aí")
     } else {
             firebase.auth().createUserWithEmailAndPassword(email, senha)
             .then((userCredential) => {
