@@ -1,7 +1,7 @@
 {
     "products": [
         {
-            "name": "sandalia feminina vizzano salto grosso verniz",
+            "name": "Sandalia Feminina Vizzano Salto Grosso Verniz",
             "price": "119,99",
             "desconto": "0",
             "size": [
@@ -768,6 +768,32 @@
                     "featured": 1,
                     "code": "ca-387",
                     "num": 26
+            },
+
+            {
+                "name":"Bolsa feminina Pallas Preta ca 380",
+                    "price": "224,99",
+                    "desconto": "0",
+                    "size": [
+                        "-"
+                    ],
+                    "category": [
+                        "bolsa",
+                        "feminino",
+                        "feminina",
+                        "mulher",
+                        "acessórios",
+                        "pallas",
+                        "bolsa feminina pallas preta ca 380"
+                    ],
+                    "color": ["Preta"],
+                    "marca": "Pallas",
+                    "logomarca": "pallas",
+                    "descricao": "Chinelo Slide feminino, super confortável com solado antiderrapante acabamento da faixa texturizado, feito em material emborrachado. Informações Adicionais Material Externo: Sintético Emborrachado Solado:</br> Antiderrapante Cores: Ouro Rosado Marca: Beira Rio",
+                    "thumbnail": "product-27",
+                    "featured": 1,
+                    "code": "ca-380",
+                    "num": 27
             },
 
             {
