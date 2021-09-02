@@ -39,7 +39,7 @@ function teste(nome,email,senha,csenha) {
                 })
                 .then(() => {
                     
-                    window.location.href = "http://www.solarcalcados.com.br/acessoindex.html";
+                    window.location.href = "http://www.solarcalcados.com.br/acessologin.html";
                 })
                 .catch((error) => {
                     console.error("Error writing document: ", error);

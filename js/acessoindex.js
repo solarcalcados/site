@@ -24,7 +24,7 @@ firebase.auth().onAuthStateChanged((user) => {
       // ...
     } else {
       // User is signed out
-      window.location.href = "http://www.solarcalcados.com.br/acesso.html";
+      window.location.href = "http://www.solarcalcados.com.br/acessologin.html";
     }
   });
 function logout(){
