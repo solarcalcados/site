@@ -24,7 +24,7 @@ firebase.auth().onAuthStateChanged((user) => {
             querySnapshot.forEach((doc) => {
                 
                 
-                console.log(doc.id, " => ", doc.data().marca);
+                console.log(doc.data().marca);
             });
         });
 
