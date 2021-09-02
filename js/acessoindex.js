@@ -22,18 +22,16 @@ firebase.auth().onAuthStateChanged((user) => {
 
       db.collection("products").get().then((querySnapshot) => {
             querySnapshot.forEach((doc) => {
-                var url_pedido = 'product-detail.html'
-            var qntCards = document.querySelectorAll('.product-item');
 
-       
-            
-           // console.log(qntCards.length)
-            
-            let htmlText='';
-
-            htmlText+='<spam class="prodbox"><img class="prodimg"><h1 class="prodid">',doc.data().id,'</h1><h1 class="prodname">',doc.data().name,'</h1><h2 class="prodvalue">',doc.data().price,'</h2></spam>';
-            document.getElementById("lista").innerHTML+=htmlText;
+        
                 
+            // console.log(qntCards.length)
+                
+                let htmlText='';
+
+                htmlText+='<spam class="prodbox"><img class="prodimg"><h1 class="prodid">',doc.data().id,'</h1><h1 class="prodname">',doc.data().name,'</h1><h2 class="prodvalue">',doc.data().price,'</h2></spam>';
+                document.getElementById("lista").innerHTML+=htmlText;
+                    
                 
                 console.log(doc.data().price);
             });
