@@ -20,7 +20,7 @@ function login(email, senha){
   .then((userCredential) => {
     // Signed in
     var user = userCredential.user;
-    window.location.href = "http://www.solarcalcados.com.br/acessoindex.html";
+    window.location.href = "acessoindex.html";
   })
   .catch((error) => {
     var errorCode = error.code;

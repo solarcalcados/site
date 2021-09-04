@@ -29,7 +29,7 @@ firebase.auth().onAuthStateChanged((user) => {
                 
                 let htmlText='';
 
-                htmlText+='<spam class="prodbox"><img class="prodimg"><h1 class="prodid">'+doc.data().id+'</h1><h1 class="prodname">'+doc.data().name+'</h1><h2 class="prodvalue">'+doc.data().price+'</h2></spam>';
+                htmlText+='<span class="prodboxs p-0 col-6"><span class="card m-2 p-2"><img class="prodimg"><h1 onclick="edit()" class="btn-edit">edit</h1><h1 class="prodid">'+doc.data().id+'</h1><h1 class="prodname">'+doc.data().name+'</h1><h1 class="prodvalue">'+doc.data().price+'</h1></spam></spam>';
                 document.getElementById("lista").innerHTML+=htmlText;
                     
                 
@@ -38,13 +38,17 @@ firebase.auth().onAuthStateChanged((user) => {
         });
 
 
-      console.log(uid)
+      
       // ...
     } else {
       // User is signed out
-      window.location.href = "http://www.solarcalcados.com.br/acessologin.html";
+      window.location.href = "acessologin.html";
     }
   });
+function edit(){
+  console.log("uid")
+}
+
 function logout(){
     firebase.auth().signOut().then(() => {
         // Sign-out successful.
